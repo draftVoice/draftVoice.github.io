@@ -9,6 +9,7 @@ tags:
 ### Create a new Github repository
 >Repository name 填写 yourname.github.io
 
+<!--more-->
 ### 下载安装hexo
 ``` bash
 $ npm install -g hexo-cli
@@ -30,21 +31,30 @@ $ npm install hexo-deployer-git --save
         branch: master
 ```
 
-### 发表一篇文章
+### Create a new post
+
 ``` bash
-$ hexo new "title"
+$ hexo new "My New Post"
 ```
 
-### 本地发布
+### Run server
+
 ``` bash
 $ hexo server
 ```
 
-### 部署到Github
+### Generate static files
+
 ``` bash
 $ hexo generate
+```
+
+### Deploy to remote sites
+
+``` bash
 $ hexo deploy
 ```
+
 
 ## Post Hexo Blogs On Several Computers
 
