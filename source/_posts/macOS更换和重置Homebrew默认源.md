@@ -9,8 +9,9 @@ categories: macOS
 ---
 
 ## 前言
-* Homebrew的更新源由三部分组成：本体（brew.git）、核心（homebrew-core.git）以及二进制预编译包（homebrew-bottles）。
-* 默认官方的更新源都是存放在GitHub上的，所以我们会倾向于选择国内提供的更新源，可以提高访问速度。（本文中默认更换的是中国科大的软件源）
+>Homebrew的更新源由三部分组成：本体（brew.git）、核心（homebrew-core.git）以及二进制预编译包（homebrew-bottles）。
+>默认官方的更新源都是存放在GitHub上的，所以我们会倾向于选择国内提供的更新源，可以提高访问速度。（本文中默认更换的是中国科大的软件源）
+
 <!-- more -->
 
 ## 更换默认源
