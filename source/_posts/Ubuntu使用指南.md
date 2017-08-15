@@ -1,5 +1,5 @@
 ---
-title: Ubuntu初始化设置和常用软件安装
+title: Ubuntu使用指南
 date: 2017-07-29 22:48:22
 tags:
   - Ubuntu
