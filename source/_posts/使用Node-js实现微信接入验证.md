@@ -7,7 +7,7 @@ tags:
 comments: true
 categories: node
 ---
-微信的接口只支持80端口，所以如果设置其他端口，需要通过Nginx把域名反向代理到该端口。
+index.js
 <!-- more -->
 
 ```javascript
@@ -41,4 +41,21 @@ app.listen(80,()=>{
 })
 ```
 
+微信的接口只支持80端口，所以如果设置其他端口，需要通过Nginx把域名反向代理到该端口。
 
+```
+server{
+	...
+
+	location /wx {
+		proxy_set_header Host $host;
+		proxy_set_header X-Real-IP $remote_addr;
+		proxy_set_header REMOTE-HOST $remote_addr;
+		proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+		proxy_pass http://127.0.0.1:3000;
+	}
+
+	...
+}
+
+```
