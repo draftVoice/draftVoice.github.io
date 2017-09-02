@@ -78,5 +78,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:draftVoice/draftVoice.github.io.git
+  repo: git@github.com:xq-li/xq-li.github.io.git
   branch: master
