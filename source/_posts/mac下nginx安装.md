@@ -7,19 +7,30 @@ tags:
 categories: macOS
 ---
 
+安装:
 ```bash
-brew install nginx
+$ brew install nginx
 ```
 
+启动:
 ```bash
-nginx
-```
-
-```bash
-open /usr/local/var/www
+$ nginx
 ```
 
 <!-- more -->
+
+打开默认服务器文件路径:
+```bash
+$ open /usr/local/var/www
+```
+
+修改nginx配置文件:
+```bash
+$ cd usr/local/etc/nginx
+$ nano nginx.conf
+```
+
+
 
 Docroot is: /usr/local/var/www
 

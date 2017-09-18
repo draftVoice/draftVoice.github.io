@@ -24,7 +24,12 @@ $ defaults delete com.apple.desktopservices DSDontWriteNetworkStores
 
 #### 删除所有.DS_Store文件
 ```bash
-sudo find / -name ".DS_Store" -depth -exec rm {} \
+$ sudo find / -name ".DS_Store" -depth -exec rm {} \
+```
+
+### 在文件夹顶部显示完整文件路径
+```bash
+$ defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 ```
 
 ***
