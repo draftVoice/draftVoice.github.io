@@ -13,7 +13,7 @@ get the main page:
 ```bash
 $ curl xiaoqiangli.com
 ```
-
+<!-- more -->
 save the main page to local:
 ```bash
 $ curl xiaoqiangli.com > xiaoqiangli.html
