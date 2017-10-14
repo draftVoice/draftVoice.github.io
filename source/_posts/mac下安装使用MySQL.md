@@ -18,7 +18,7 @@ categories: macOS
 * 在最后一步的时候会出现提示框，这里要注意一下，要记下提示框中的内容，这个是MySQL的默认密码;
 
 ## 使用:
-* 安装成功后，打开“系统偏好设置”，点击MySQL图标，点击 “Start MySQL Server”，启动MySQL。
+安装成功后，打开“系统偏好设置”，点击MySQL图标，点击 “Start MySQL Server”，启动MySQL。
 
 ```bash
 #进入MySQL默认目录
