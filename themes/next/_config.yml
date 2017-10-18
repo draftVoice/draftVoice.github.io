@@ -339,6 +339,7 @@ changyan:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
+baidu_site_verification: true
 #google_site_verification:
 
 # Google Analytics
