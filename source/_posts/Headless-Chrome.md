@@ -15,7 +15,7 @@ Chrome 59 之后提供了 Headless 模式，其允许在命令行中使用 Chrom
 ```bash
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 ```
-
+<!-- more -->
 ```bash
 #打印DOM:
 chrome --headless --disable-gpu --dump-dom http://www.xiaoqiangli.com
