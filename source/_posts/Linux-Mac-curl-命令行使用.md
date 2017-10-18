@@ -1,5 +1,5 @@
 ---
-title: Linux & Mac curl 命令行使用
+title: Linux / macOS 使用 curl
 date: 2017-09-19 14:59:49
 tags:
   - macOS

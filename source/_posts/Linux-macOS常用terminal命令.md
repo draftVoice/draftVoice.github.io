@@ -1,5 +1,5 @@
 ---
-title: Linux/macOS常用terminal命令
+title: Linux / macOS常用terminal命令
 date: 2017-10-18 10:16:11
 tags:
   - macOS
