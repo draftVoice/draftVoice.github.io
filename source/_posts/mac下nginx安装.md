@@ -1,5 +1,5 @@
 ---
-title: mac下nginx安装
+title: macOS安装使用nginx
 date: 2017-09-17 22:33:12
 tags:
   - macOS

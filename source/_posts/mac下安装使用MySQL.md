@@ -1,5 +1,5 @@
 ---
-title: mac下安装使用MySQL
+title: macOS安装使用MySQL
 date: 2017-10-14 15:04:09
 tags:
   - macOS
