@@ -133,6 +133,12 @@ toc:
 #creative_commons: by-nc-sa
 #creative_commons:
 
+sitemap: 
+  path: sitemap.xml
+baidusitemap: 
+  path: baidusitemap.xml
+
+
 sidebar:
   # Sidebar Position, available value: left | right
   position: left
