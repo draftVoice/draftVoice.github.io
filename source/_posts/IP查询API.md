@@ -57,7 +57,7 @@ ajax({
 API: http://ip.taobao.com/service/getIpInfo.php?ip=[IP地址]
 
 
-# 获取url来源
+# 获取来源url
 ```javascript
 var urlSource = document.referrer;
 ```
