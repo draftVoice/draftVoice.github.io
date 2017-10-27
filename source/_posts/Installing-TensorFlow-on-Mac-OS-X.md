@@ -26,7 +26,7 @@ pip3 install --upgrade tensorflow     # for Python 3.n
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow
 ```
 
-### Validate installation
+### Validate installation:
 ```python
 # Python
 import tensorflow as tf
