@@ -19,8 +19,8 @@ pip3 install virtualenv
 使用virtualenv创建一套独立的Python运行环境:
 ```bash
 # 创建并进入目录
-$ mkdir tensorflow
-$ cd tensorflow
+$ mkdir newDirectory
+$ cd newDirectory
 
 # 创建运行环境：
 # --no-site-packages ==> 不带第三方包的python运行环境
