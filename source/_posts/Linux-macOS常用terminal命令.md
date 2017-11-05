@@ -23,14 +23,14 @@ ssh user@host
 ```bash
 ssh-keygen
 #运行上面的命令以后，系统会出现一系列提示，可以一路回车。
-#运行结束以后，在~/.ssh/目录下，会新生成两个文件：id_rsa.pub和id_rsa。前者是你的公钥，后者是你的私钥。
+#运行结束以后，在~/.ssh/目录下，会新生成两个文件：id_rsa.pub和id_rsa。前者是公钥，后者是私钥。
 ```
 
-将公钥传送到远程主机host上面：
+将公钥传送到远程服务器上面：
 ```bash
 ssh-copy-id user@host
-#免输入密码登录服务器
-#远程主机将用户的公钥，保存在$HOME/.ssh/authorized_keys文件中
+#将公钥保存在远程服务器的$HOME/.ssh/authorized_keys文件中
+#可以免输入密码登录服务器
 ```
 ***
 
