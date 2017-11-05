@@ -9,8 +9,9 @@ categories: Linux
 ---
 
 ### ssh
->ssh命令是openssh套件中的客户端连接工具，可以给予ssh加密协议实现安全的远程登录服务器。
 <!-- more  -->
+
+>ssh命令是openssh套件中的客户端连接工具，可以给予ssh加密协议实现安全的远程登录服务器。
 
 登录远程服务器：
 ```bash
