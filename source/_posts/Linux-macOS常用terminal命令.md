@@ -8,30 +8,92 @@ tags:
 categories: Linux
 ---
 
+### ssh
+>ssh命令是openssh套件中的客户端连接工具，可以给予ssh加密协议实现安全的远程登录服务器。
+<!-- more  -->
+登录远程服务器：
+```bash
+ssh user@host
+# user => 用户名
+# host => 远程服务器
+```
+
+生成本设备的ssh key:
+```bash
+ssh-keygen
+#运行上面的命令以后，系统会出现一系列提示，可以一路回车。
+#运行结束以后，在~/.ssh/目录下，会新生成两个文件：id_rsa.pub和id_rsa。前者是你的公钥，后者是你的私钥。
+```
+
+将公钥传送到远程主机host上面：
+```bash
+ssh-copy-id user@host
+#免输入密码登录服务器
+#远程主机将用户的公钥，保存在$HOME/.ssh/authorized_keys文件中
+```
+***
+
+### scp
+>远程拷贝文件的命令
+
+上传本地文件／目录到远程机器指定目录
+```bash
+scp ~/directory/file1 user@host:~/target/
+#将本地的file1文件上传至服务器的target文件夹
+```
+
+从远程服务器复制文件／目录到本地目录
+```bash
+scp user@host:~/directory/file2 ~/target/
+#将远程服务器的file2文件复制到本地target文件夹
+```
+如果上传／下载目录，需要添加 -r 参数
+
+***
+### nohup (Linux only)
+>nohup命令可以将程序以忽略挂起(SIGHUP)信号的方式运行起来，被运行的程序的输出信息将不会显示到终端。
+
+该命令的一般形式为：
+```bash
+nohup command &
+```
+如果使用nohup命令提交作业，那么在缺省情况下该作业的所有输出都被重定向到一个名为nohup.out的文件中，除非另外指定了输出文件：
+```bash
+nohup command > myout.file 2>&1 &
+```
+* 在上面的例子中，输出被重定向到myout.file文件中。
+* 2>&1是将标准错误（2）重定向到标准输出（&1），标准输出（&1）再被重定向输入到myout.file文件中。
+* 使用 jobs 查看任务。
+* 使用 fg %n　关闭。
+
+***
 ### pwd 
 >显示用户当前工作目录
-
+***
 ### alias
 >设置指令的别名
-
-<!-- more -->
 
 * 语法：alias name='command line'
 
 * 别名永久化：添加至/etc/bashrc
 
+***
 ### mkdir
 >创建目录
 
+***
 ### touch
 >创建文件
 
+***
 ### cat
 >查看文件
 
+***
 ### nano / vi / vim
 >编辑文件
 
+***
 ### ls
 >显示目标列表
 
@@ -57,6 +119,7 @@ categories: Linux
 * --full-time：列出完整的日期与时间； 
 * --color[=WHEN]：使用不同的颜色高亮显示不同类型的。
 
+***
 ### rm
 >删除目标
 
@@ -67,6 +130,7 @@ categories: Linux
 * --preserve-root：不对根目录进行递归操作； 
 * -v：显示指令的详细执行过程。
 
+***
 ### cp
 >将一个或多个源文件或者目录复制到指定的目的文件或目录
 
@@ -95,6 +159,7 @@ cp -r /usr/men /usr/zh
 cp -i /usr/men m*.c /usr/zh
 ```
 
+***
 ### mv
 >用来对文件或目录重新命名，或者将文件从一个目录移到另一个目录中
 
@@ -116,6 +181,7 @@ mv ex3 new1
 mv /usr/men/* .
 ```
 
+***
 ### cd
 >切换工作目录
 
