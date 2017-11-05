@@ -70,6 +70,7 @@ nohup command > myout.file 2>&1 &
 ***
 ### pwd 
 >显示用户当前工作目录
+
 ***
 ### alias
 >设置指令的别名
