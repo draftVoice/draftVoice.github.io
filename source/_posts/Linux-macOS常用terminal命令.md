@@ -37,13 +37,13 @@ ssh-copy-id user@host
 ### scp
 >远程拷贝文件的命令
 
-上传本地文件／目录到远程机器指定目录
+上传本地文件到远程机器指定目录
 ```bash
 scp ~/directory/file1 user@host:~/target/
 #将本地的file1文件上传至服务器的target文件夹
 ```
 
-从远程服务器复制文件／目录到本地目录
+从远程服务器复制文件到本地目录
 ```bash
 scp user@host:~/directory/file2 ~/target/
 #将远程服务器的file2文件复制到本地target文件夹
