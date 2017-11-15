@@ -34,7 +34,7 @@ $ defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 
 ***
 
-## 常用软件安装
+## Package Manager For macOS
 
 ### 安装Homebrew (macOS软件包管理器)
 >官网： https://brew.sh/index_zh-cn.html
