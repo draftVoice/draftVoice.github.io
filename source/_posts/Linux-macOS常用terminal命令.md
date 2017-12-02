@@ -5,7 +5,7 @@ tags:
   - macOS
   - Linux
   - terminal
-categories: Linux
+categories: Terminal
 ---
 
 ### ssh
@@ -81,6 +81,7 @@ nohup command > myout.file 2>&1 &
 * 别名永久化：添加至/etc/bashrc
 
 ***
+
 ### mkdir
 >创建目录
 
