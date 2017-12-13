@@ -41,13 +41,6 @@ categories: Terminal
 
 ***
 
-### kill
->kill命令用来删除执行中的程序或工作
-```bash
-kill pid
-```
-***
-
 ### ssh
 
 >ssh命令是openssh套件中的客户端连接工具，可以给予ssh加密协议实现安全的远程登录服务器。
