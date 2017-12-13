@@ -5,7 +5,7 @@ tags:
   - macOS
   - nginx
   - FFmpeg
-categories: macOS
+categories: FFmpeg
 ---
 
 ## 安装nginx-full和rtmp模块
