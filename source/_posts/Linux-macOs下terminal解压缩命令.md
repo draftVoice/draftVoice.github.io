@@ -1,5 +1,5 @@
 ---
-title: Linux/macOs下terminal解压缩命令
+title: Linux/macOS下terminal解压缩命令
 date: 2017-12-02 11:55:58
 tags:
   - macOS
@@ -14,7 +14,7 @@ categories: Terminal
 
 （注：tar是打包，不是压缩！）
 
-———————————————
+***
 <!-- more -->
 
 ## .gz
@@ -25,7 +25,7 @@ categories: Terminal
 
 压缩：gzip FileName
 
-———————————————
+***
 
 ## .tar.gz 和 .tgz
 
@@ -33,7 +33,7 @@ categories: Terminal
 
 压缩：tar zcvf FileName.tar.gz DirName
 
-———————————————
+***
 
 ## .bz2
 
@@ -43,7 +43,7 @@ categories: Terminal
 
 压缩： bzip2 -z FileName
 
-———————————————
+***
 
 ## .tar.bz2
 
@@ -51,7 +51,7 @@ categories: Terminal
 
 压缩：tar jcvf FileName.tar.bz2 DirName
 
-———————————————
+***
 
 ## .bz
 
@@ -61,7 +61,7 @@ categories: Terminal
 
 压缩：未知
 
-———————————————
+***
 
 ## .tar.bz
 
@@ -69,7 +69,7 @@ categories: Terminal
 
 压缩：未知
 
-———————————————
+***
 
 ## .Z
 
@@ -77,7 +77,7 @@ categories: Terminal
 
 压缩：compress FileName
 
-———————————————
+***
 
 ## .tar.Z
 
@@ -85,7 +85,7 @@ categories: Terminal
 
 压缩：tar Zcvf FileName.tar.Z DirName
 
-———————————————
+***
 
 ## .zip
 
@@ -99,7 +99,7 @@ categories: Terminal
 
 >-e 加密
 
-———————————————
+***
 
 ## .rar
 
@@ -107,25 +107,25 @@ categories: Terminal
 
 压缩：rar a FileName.rar DirName
 
-———————————————
+***
 
 ## .lha
 解压：lha -e FileName.lha
 
 压缩：lha -a FileName.lha FileName
 
-———————————————
+***
 
 ## .rpm
 解包：rpm2cpio FileName.rpm | cpio -div
 
-———————————————
+***
 
 ## .deb
 
 解包：ar p FileName.deb data.tar.gz | tar zxf -
 
-———————————————
+***
 
 .tar .tgz .tar.gz .tar.Z .tar.bz .tar.bz2 .zip .cpio .rpm .deb .slp .arj .rar .ace .lha .lzh .lzx .lzs .arc .sda .sfx .lnx .zoo .cab .kar .cpt .pit .sit .sea
 
