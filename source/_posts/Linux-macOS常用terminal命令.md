@@ -9,7 +9,7 @@ categories: Terminal
 ---
 
 ### ps
->ps命令用于报告当前系统的进程状态。
+>Process Status的缩写，用于报告当前系统的进程状态。
 
 #### 常用参数:
 * -A: 列出所有的进程
