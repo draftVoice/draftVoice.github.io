@@ -17,7 +17,9 @@ npm install eslint --save-dev
 # > Use a popular style guide
 # > Airbnb
 ```
+
 <!-- more -->
+
 ## 编辑器配置linter
 
 ### vscode
