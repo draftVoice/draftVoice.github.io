@@ -8,7 +8,7 @@ categories: JavaScript
 ---
 # Local Installation and Usage
 
-## [ESLint]('https://eslint.org/')
+## [ESLint](https://eslint.org)
 
 ```bash
 npm install eslint --save-dev
