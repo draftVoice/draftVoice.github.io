@@ -7,7 +7,7 @@ comments: true
 categories: JavaScript
 ---
 
-The tag will be embedded in comment blocks that start with /** and end with */
+The tag will be embedded in comment blocks that start with /*\* and end with */
 
 <!-- more -->
 
