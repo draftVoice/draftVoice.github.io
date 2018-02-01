@@ -6,9 +6,11 @@ tags:
 comments: true
 categories: Git
 ---
-[Git](https://git-scm.com/)
+[Git官网](https://git-scm.com/)
 
 [Documentation](https://git-scm.com/docs)
+
+<!-- more -->
 
 ## Git从远程的分支获取最新的版本到本地
 
