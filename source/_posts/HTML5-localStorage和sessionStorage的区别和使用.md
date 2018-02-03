@@ -2,11 +2,10 @@
 title: HTML5 localStorage和sessionStorage的区别和使用
 date: 2017-09-18 13:35:56
 tags:
-  - HTML5 
   - HTML 
   - localStorage 
   - sessionStorage
-categories: Html
+categories: HTML
 ---
 
 * localStorage和sessionStorage一样都是用来存储客户端临时信息的对象。
