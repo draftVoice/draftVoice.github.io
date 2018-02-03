@@ -7,6 +7,10 @@ comments: true
 categories: JavaScript
 ---
 
+[JSDoc's website](http://usejsdoc.org/index.html)
+
+[JSDoc's github](https://github.com/jsdoc3/jsdoc)
+
 The tag will be embedded in comment blocks that start with /\*\* and end with */
 
 <!-- more -->
