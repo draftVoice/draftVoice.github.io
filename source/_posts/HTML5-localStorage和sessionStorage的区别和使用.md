@@ -5,7 +5,7 @@ tags:
   - HTML 
   - localStorage 
   - sessionStorage
-categories: HTML
+categories: Html
 ---
 
 * localStorage和sessionStorage一样都是用来存储客户端临时信息的对象。
