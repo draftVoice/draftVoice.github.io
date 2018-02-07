@@ -2,7 +2,7 @@
 title: HTML5 localStorage和sessionStorage的区别和使用
 date: 2017-09-18 13:35:56
 tags:
-  - HTML 
+  - Html 
   - localStorage 
   - sessionStorage
 categories: Html
