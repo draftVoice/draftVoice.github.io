@@ -1,5 +1,5 @@
 ---
-title: Headless Chrome和Puppeteer的使用.md
+title: Headless Chrome和Puppeteer的使用
 date: 2017-10-18 15:13:12
 tags:
   - node
