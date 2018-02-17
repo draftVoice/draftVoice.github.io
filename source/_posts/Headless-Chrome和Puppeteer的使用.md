@@ -48,7 +48,7 @@ chrome --headless --disable-gpu --screenshot --window-size=412,732 http://www.xi
 npm i --save puppeteer
 ```
 
-下载完puppeteer包之后有执行node install.js去下载chromium，但是由于网络的原因，国内安装puppeteer时可能会报如下错误：
+下载完puppeteer包之后有执行node install.js去下载chromium，由于网络的原因，国内安装puppeteer时可能会报如下错误：
 
 ```bash
 ERROR: Failed to download Chromium r536395! Set "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD" env variable to skip download.
