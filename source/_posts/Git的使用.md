@@ -40,3 +40,15 @@ git merge tmp
 git pull origin master
 # 相当于git fetch + git merge
 ```
+
+## 删除远程分支
+
+```bash
+git push origin --delete <BranchName>
+```
+
+## 拉取远程分支并创建本地分支
+
+```bash
+git checkout -b <BranchName> origin/<BranchName>
+```
