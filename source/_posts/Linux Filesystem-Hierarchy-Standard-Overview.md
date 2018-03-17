@@ -10,6 +10,8 @@ categories: Unix/Unix-like
 
 ## The Root Filesystem
 
+<!-- more -->
+
 * /bin : Essential user command binaries (for use by all users)
 * /boot : Static files of the boot loader
 * /dev : Device files
