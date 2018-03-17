@@ -2,9 +2,8 @@
 title: Linux / macOS中/etc/profile、/etc/bashrc、~/.bash_profile、~/.bashrc、之间的区别
 date: 2017-10-18 15:54:32
 tags:
-  - macOS
-  - Linux
-categories: Linux
+  - Unix/Unix-like
+categories: Unix/Unix-like
 
 ---
 
