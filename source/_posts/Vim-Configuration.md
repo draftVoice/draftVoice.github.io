@@ -28,7 +28,7 @@ Edit .vimrc file and add these lines:
 
 ```vim
 set number "设置行号
-set nowrap "不换行 
+set wrap "设置自动换行 nowrap/wrap
 set shiftwidth=4 "默认缩进4个空格
 set softtabstop=4  "BackSpace
 set tabstop=4  "tab space
