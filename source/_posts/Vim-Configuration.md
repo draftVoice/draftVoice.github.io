@@ -22,9 +22,9 @@ Then create a .vimrc file that will contain most configuration:
 ```bash
 cd ~
 vim .vimrc
-``` 
+```
 
-Edit .vimrc file and add these lines
+Edit .vimrc file and add these lines:
 
 ```vim
 set number "设置行号
