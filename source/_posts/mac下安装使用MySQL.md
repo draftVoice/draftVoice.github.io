@@ -4,6 +4,7 @@ date: 2017-10-14 15:04:09
 tags:
   - macOS
   - MySQL
+  - Unix/Unix-like
 categories: macOS
 ---
 

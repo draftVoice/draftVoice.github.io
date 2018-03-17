@@ -4,6 +4,7 @@ date: 2017-07-29 22:48:22
 tags:
   - Ubuntu
   - Linux
+  - Unix/Unix-like
 comments: true
 categories: Linux
 ---

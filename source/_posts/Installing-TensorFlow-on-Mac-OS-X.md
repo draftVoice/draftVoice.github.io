@@ -7,6 +7,7 @@ tags:
   - pip
   - 机器学习
   - TensorFlow
+  - Unix/Unix-like
 categories: 机器学习
 ---
 

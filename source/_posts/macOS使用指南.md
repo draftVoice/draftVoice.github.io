@@ -4,6 +4,7 @@ date: 2017-08-08 12:17:02
 tags:
   - macOS
   - Homebrew
+  - Unix/Unix-like
 comments: true
 categories: macOS
 ---

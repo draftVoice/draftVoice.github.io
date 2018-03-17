@@ -2,10 +2,9 @@
 title: Linux / macOS 使用 curl
 date: 2017-09-19 14:59:49
 tags:
-  - macOS
-  - Linux
+  - Unix/Unix-like
   - curl
-categories: macOS
+categories: Unix/Unix-like
 ---
 >curl文档：https://curl.haxx.se/docs/manual.html
 

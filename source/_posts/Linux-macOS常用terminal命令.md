@@ -2,10 +2,9 @@
 title: Linux / macOS常用terminal命令
 date: 2017-10-18 10:16:11
 tags:
-  - macOS
-  - Linux
   - terminal
-categories: Terminal
+  - Unix/Unix-like
+categories: Unix/Unix-like
 ---
 
 ### ps

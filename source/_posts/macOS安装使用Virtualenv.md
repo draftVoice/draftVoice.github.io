@@ -5,6 +5,7 @@ tags:
   - macOS
   - Python
   - Virtualenv
+  - Unix/Unix-like
 categories: Python
 ---
 

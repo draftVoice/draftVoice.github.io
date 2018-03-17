@@ -4,6 +4,7 @@ date: 2017-11-25 15:43:07
 tags:
   - macOS
   - Rootless
+  - Unix/Unix-like
 comments: true
 categories: macOS
 ---
