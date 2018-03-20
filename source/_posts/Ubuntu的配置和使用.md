@@ -1,5 +1,5 @@
 ---
-title: Ubuntu使用指南
+title: Ubuntu的配置和使用
 date: 2017-07-29 22:48:22
 tags:
   - Ubuntu
