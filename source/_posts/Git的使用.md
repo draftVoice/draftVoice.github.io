@@ -52,3 +52,9 @@ git push origin --delete <BranchName>
 ```bash
 git checkout -b <BranchName> origin/<BranchName>
 ```
+
+## 强制推送本地分支到远程分支（覆盖远程分支）
+
+```bash
+git push -f origin <BranchName>
+```
