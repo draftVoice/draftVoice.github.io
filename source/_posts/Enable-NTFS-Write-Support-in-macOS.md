@@ -17,6 +17,8 @@ $ sudo vim fstab
 LABEL=Volumes_name none ntfs rw,auto,nobrowse
 ```
 
+<!-- more -->
+
 方法二:
 
 ```bash
@@ -28,8 +30,6 @@ $ sudo vim /etc/fstab
 # 文件中添加如下信息(Volumes_UUID即硬盘UUID):
 UUID=Volumes_UUID none ntfs rw,auto,nobrowse
 ```
-
-<!-- more -->
 
 重新插入硬盘:
 ```bash
