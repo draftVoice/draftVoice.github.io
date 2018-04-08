@@ -1,11 +1,14 @@
 ---
-title: JavaScript Math 对象
-date: 2018-04-08 16:30:53
+title: JavaScript Math对象和Number对象
+date: 2018-04-08 16:57:00
 tags:
   - JavaScript
 comments: true
 categories: JavaScript
 ---
+# JavaScript Math对象和Number对象
+
+## [Math对象](http://www.w3school.com.cn/jsref/jsref_obj_math.asp)
 
 <!-- more -->
 
@@ -31,3 +34,16 @@ categories: JavaScript
 | tan(x) | 返回一个角的正切 |
 | toSource() | 代表对象的源代码 |
 | valueOf() | 返回一个 Math 对象的原始值 |
+
+***
+
+## [Number对象](http://www.w3school.com.cn/jsref/jsref_obj_number.asp)
+
+| 方法 | 描述 |
+| :- | :- |
+| toString | 把数字转换为字符串，使用指定的基数。|
+| toLocaleString | 把数字转换为字符串，使用本地数字格式顺序。|
+| toFixed | 把数字转换为字符串，结果的小数点后有指定位数的数字。|
+| toExponential | 把对象的值转换为指数计数法。|
+| toPrecision | 把数字格式化为指定的长度。|
+| valueOf | 返回一个 Number 对象的基本数字值。|
