@@ -79,30 +79,47 @@ $ unrar x file.rar
 
 ## 设置
 
-### .DS_Store
->.DS_Store是Mac OS保存文件夹的自定义属性的隐藏文件，如文件的图标位置或背景色，相当于Windows的desktop.ini。
-
-#### 禁止.DS_store生成（重启Mac即可生效）：
-```bash
-$ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE 
-```
-<!-- more -->
-#### 恢复.DS_store生成（重启Mac即可生效）： 
-```bash
-$ defaults delete com.apple.desktopservices DSDontWriteNetworkStores
-```
-
-#### 删除所有.DS_Store文件
-```bash
-$ sudo find / -name ".DS_Store" -depth -exec rm {} \
-```
-
 ### 在文件夹顶部显示完整文件路径
+
 ```bash
 $ defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 ```
 
 ***
+
+### .DS_Store
+
+>.DS_Store是Mac OS保存文件夹的自定义属性的隐藏文件，如文件的图标位置或背景色，相当于Windows的desktop.ini。
+
+#### 禁止.DS_store生成（重启Mac即可生效）：
+
+```bash
+$ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE 
+```
+
+#### 恢复.DS_store生成（重启Mac即可生效）： 
+
+```bash
+$ defaults delete com.apple.desktopservices DSDontWriteNetworkStores
+```
+
+#### 删除所有.DS_Store文件
+
+```bash
+$ sudo find / -name ".DS_Store" -depth -exec rm {} \
+```
+
+***
+
+### 重置 Launchpad
+
+```bash
+defaults write com.apple.dock ResetLaunchPad -bool true
+killall Dock
+```
+
+***
+
 
 ## 快捷键
 
