@@ -27,7 +27,7 @@ python -m SimpleHTTPServer <port>
 
 >The SimpleHTTPServer module has been merged into http.server in Python 3.0. The 2to3 tool will automatically adapt imports when converting your sources to 3.0.
 
-So the command in python3 is:
+The command in python3 is:
 
 ```bash
 python3 -m http.server <port>
