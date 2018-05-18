@@ -1,5 +1,5 @@
 ---
-title: Python's SimpleHTTPServer module
+title: Python's SimpleHTTPServer Module
 date: 2018-05-18 19:01:15
 tags:
   - Python
