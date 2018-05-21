@@ -55,7 +55,7 @@ b.bind(a, 5, 10)()  // 15
 
 ## function中的this
 
-在Javascript中，this 永远指向最后调用它的那个对象。
+在function中，this 永远指向最后调用它的那个对象。
 
 ## 箭头函数中的this
 
