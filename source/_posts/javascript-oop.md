@@ -95,7 +95,7 @@ function Sub(){
 }
 Sub.prototype = new Super;
 var obj = new Sub();
-Sub.prototype.constructor = Sub;
+Sub.prototype.constructor = Sub; // 让对象的constructor指向其构造函数
 Super.prototype.getSubFlag = function(){
     return this.flag;
 }
