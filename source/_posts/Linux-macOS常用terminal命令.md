@@ -40,6 +40,23 @@ categories: Unix/Unix-like
 
 ***
 
+### tail
+
+>输入文件中的尾部内容
+
+```bash
+#监视filename文件的尾部内容（默认10行，相当于增加参数 -n 10），动态刷新显示在屏幕上。command + c 退出。
+tail -f filename
+
+#显示filename最后20行。
+tail -n 20 filename
+
+#逆序显示filename最后10行。
+tail -r -n 10 filename
+```
+
+***
+
 ### ssh
 
 >ssh命令是openssh套件中的客户端连接工具，可以给予ssh加密协议实现安全的远程登录服务器。
