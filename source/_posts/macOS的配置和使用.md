@@ -120,7 +120,10 @@ killall Dock
 
 ***
 
-
 ## 快捷键
 
-* Command+Shift+.  显示隐藏文件夹
+* 显示隐藏文件夹 : Command + Shift + .
+
+* 打开多个终端(需要保持焦点在终端上)
+  * 打开新的终端页面 : Command + N
+  * 在当前终端内打开新的Tap : Command + T
