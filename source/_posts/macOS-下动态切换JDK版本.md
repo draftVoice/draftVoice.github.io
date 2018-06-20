@@ -2,6 +2,8 @@
 title: macOS 下动态切换JDK版本
 date: 2018-06-21 00:57:22
 tags:
+ - Java
+categories: Java
 ---
 
 ```bash
