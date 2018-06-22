@@ -13,25 +13,43 @@ categories: Android
 
 ***
 
-X86系列的<br>
-export ANDROID_ABI=x86<br>
+X86系列的
 
-ARM的Cortex-A8 or Cortex-A9系列 <br>
-export ANDROID_ABI=armeabi-v7a（说明：armeabi-v7a是针对有浮点运算或高级扩展功能的arm cpu）<br>
+export ANDROID_ABI=x86
 
-ARMv6<br>
-export ANDROID_ABI=armeabi(说明：armeabi就是针对普通的或旧的arm cpu)<br>
+===============================
 
-ARMv6 不带 FPU<br>
-export ANDROID_ABI=armeabi<br> 
-export NO_FPU=1<br>
+ARM的Cortex-A8 or Cortex-A9系列
 
-ARMv5 或者 模拟器<br>
-export ANDROID_ABI=armeabi<br> 
-export NO_ARMV6=1<br>
+export ANDROID_ABI=armeabi-v7a（说明：armeabi-v7a是针对有浮点运算或高级扩展功能的arm cpu）
 
-MIPS 系列 <br>
-export ANDROID_ABI=mips<br>
+===============================
+
+ARMv6
+
+export ANDROID_ABI=armeabi(说明：armeabi就是针对普通的或旧的arm cpu)
+
+===============================
+
+ARMv6 不带 FPU
+
+export ANDROID_ABI=armeabi
+
+export NO_FPU=1
+
+===============================
+
+ARMv5 或者 模拟器
+
+export ANDROID_ABI=armeabi 
+
+export NO_ARMV6=1
+
+===============================
+
+MIPS 系列
+
+export ANDROID_ABI=mips
 
 ***
 
