@@ -7,7 +7,21 @@ tags:
 categories: Unix/Unix-like
 ---
 
+### du
+
+> 查看目录或者文件所占空间
+
+```bash
+# 查看当前目录下，所有文件的大小分布
+du -d 1 -h
+```
+
+<!-- more -->
+
+***
+
 ### ps
+
 >Process Status的缩写，用于报告当前系统的进程状态。
 
 #### 常用参数:
@@ -17,8 +31,6 @@ categories: Unix/Unix-like
 * -au: 显示较详细的资讯
 * aux: 显示所有包含其他使用者的行程
 * -m: 显示所有的线程
-
-<!-- more -->
 
 #### 详细进程信息输出的解释：
 
