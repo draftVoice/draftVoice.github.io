@@ -12,6 +12,18 @@ categories: Git
 
 <!-- more -->
 
+## 配置Git
+
+```bash
+git config --global user.name "Your Name"  ##设置用户名
+git config --global user.email "youremail@domain.com"  ##设置email
+
+ssh-keygen -t rsa -C "youremail@domain.com"  ##创建SSH key
+
+#查看SSH key
+cat ~/.ssh/id_rsa.pub
+```
+
 ## Git从远程的分支获取最新的版本到本地
 
 ### git fetch + git log + git merge
