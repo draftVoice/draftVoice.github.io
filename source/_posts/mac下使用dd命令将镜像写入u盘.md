@@ -26,7 +26,8 @@ sudo umount /dev/(IDENTIFIER)
 
 ```bash
 sudo dd if=源路径  of=/dev/r卷标  bs=1m
-# 'r' 会让命令执行加快一点］ ［‘bs’ 为一次填充的容量］
+# 'r' 会让命令执行加快一点
+# 'bs' 为一次填充的容量
 
 # e.g.
 # sudo dd if=~/Downloads/Windows10_x64_EN-US.iso of=/dev/rdisk2  bs=1m
@@ -35,6 +36,5 @@ sudo dd if=源路径  of=/dev/r卷标  bs=1m
 4、完成后弹出
 
 ```bash
-diskutil eject /dev/(IDENTIFIER) 
-# IDENTIFIER为卷标
+diskutil eject /dev/(IDENTIFIER)
 ```
