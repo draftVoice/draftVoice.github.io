@@ -81,7 +81,7 @@ ssh user@host
 # host => 远程服务器
 ```
 
-上面的命令，登陆的是SSH默认使用的端口(port 22)，如果登陆其他端口，在命令的后面加上 -p <port> 参数。
+上面的命令，登陆的是SSH默认使用的端口(port 22)，如果登陆其他端口，在命令的后面加上 -p port 参数。
 
 ```
 ssh user@host -p port
