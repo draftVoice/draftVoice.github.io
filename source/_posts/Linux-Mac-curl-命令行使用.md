@@ -3,7 +3,7 @@ title: Linux / macOS 使用 curl
 date: 2017-09-19 14:59:49
 tags:
   - Unix/Unix-like
-  - curl
+  - terminal
 categories: Unix/Unix-like
 ---
 >curl文档：https://curl.haxx.se/docs/manual.html
