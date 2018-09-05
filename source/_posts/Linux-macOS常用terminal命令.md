@@ -132,8 +132,8 @@ nohup command > myout.file 2>&1 &
 ```
 * 在上面的例子中，输出被重定向到myout.file文件中。
 * 2>&1是将标准错误（2）重定向到标准输出（&1），标准输出（&1）再被重定向输入到myout.file文件中。
-* 使用 jobs 查看任务。
-* 使用 fg %n　关闭。
+* 使用 jobs -l 查看任务。
+* 使用 kill pid　关闭。
 
 ***
 ### pwd 
