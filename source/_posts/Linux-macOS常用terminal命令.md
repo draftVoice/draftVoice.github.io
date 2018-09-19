@@ -20,6 +20,8 @@ tar zxvf ./file.tar.gz -C /dir/target
 tar zcvf ./file.tar.gz ./target
 ```
 
+***
+
 <!-- more -->
 
 ### du
