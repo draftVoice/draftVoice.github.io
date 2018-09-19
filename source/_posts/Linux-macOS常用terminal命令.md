@@ -7,6 +7,21 @@ tags:
 categories: Unix/Unix-like
 ---
 
+### tar
+
+> 解压缩文件
+
+```bash
+# 解压到指定目录
+tar zxvf ./file.tar.gz -C /dir/target
+
+# 打包文件
+# 将当前目录下的target文件,打包到指定目录下并命名为file.tar.gz
+tar zcvf ./file.tar.gz ./target
+```
+
+<!-- more -->
+
 ### du
 
 > 查看目录或者文件所占空间
@@ -15,8 +30,6 @@ categories: Unix/Unix-like
 # 查看当前目录下，所有文件的大小分布
 du -d 1 -h
 ```
-
-<!-- more -->
 
 ***
 
