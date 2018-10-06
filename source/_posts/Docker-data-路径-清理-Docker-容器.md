@@ -1,5 +1,5 @@
 ---
-title: Docker data 路径 / 清理当前未运行的所有 Docker 容器
+title: Docker data 路径 / 清理 Docker 容器
 date: 2018-10-07 01:52:20
 tags:
   - Docker
