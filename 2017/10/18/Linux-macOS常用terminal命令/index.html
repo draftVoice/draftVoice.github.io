@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+
+
+
+
+<html class="theme-next pisces" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Unix/Unix-like,terminal," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="tar 解压缩文件  123456# 解压到指定目录tar zxvf ./file.tar.gz -C /dir/target# 打包文件# 将当前目录下的target文件,打包到指定目录下并命名为file.tar.gztar zcvf ./file.tar.gz ./target">
+<meta name="keywords" content="Unix&#x2F;Unix-like,terminal">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux &#x2F; macOS常用terminal命令">
+<meta property="og:url" content="http://www.xiaoqiangli.com/2017/10/18/Linux-macOS常用terminal命令/index.html">
+<meta property="og:site_name" content="李晓强">
+<meta property="og:description" content="tar 解压缩文件  123456# 解压到指定目录tar zxvf ./file.tar.gz -C /dir/target# 打包文件# 将当前目录下的target文件,打包到指定目录下并命名为file.tar.gztar zcvf ./file.tar.gz ./target">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-09-19T11:16:41.198Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Linux &#x2F; macOS常用terminal命令">
+<meta name="twitter:description" content="tar 解压缩文件  123456# 解压到指定目录tar zxvf ./file.tar.gz -C /dir/target# 打包文件# 将当前目录下的target文件,打包到指定目录下并命名为file.tar.gztar zcvf ./file.tar.gz ./target">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    motion: false,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://www.xiaoqiangli.com/2017/10/18/Linux-macOS常用terminal命令/"/>
+
+
+
+
+
+  <title>Linux / macOS常用terminal命令 | 李晓强</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">李晓强</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Software Developer</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://www.xiaoqiangli.com/2017/10/18/Linux-macOS常用terminal命令/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="李晓强">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="李晓强">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Linux / macOS常用terminal命令</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-10-18T10:16:11+08:00">
+                2017-10-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Unix-Unix-like/" itemprop="url" rel="index">
+                    <span itemprop="name">Unix/Unix-like</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h3 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h3><blockquote>
+<p>解压缩文件</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 解压到指定目录</span></div><div class="line">tar zxvf ./file.tar.gz -C /dir/target</div><div class="line"></div><div class="line"><span class="comment"># 打包文件</span></div><div class="line"><span class="comment"># 将当前目录下的target文件,打包到指定目录下并命名为file.tar.gz</span></div><div class="line">tar zcvf ./file.tar.gz ./target</div></pre></td></tr></table></figure>
+<hr>
+<a id="more"></a>
+<h3 id="du"><a href="#du" class="headerlink" title="du"></a>du</h3><blockquote>
+<p>查看目录或者文件所占空间</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 查看当前目录下，所有文件的大小分布</span></div><div class="line">du -d 1 -h</div></pre></td></tr></table></figure>
+<hr>
+<h3 id="ps"><a href="#ps" class="headerlink" title="ps"></a>ps</h3><blockquote>
+<p>Process Status的缩写，用于报告当前系统的进程状态。</p>
+</blockquote>
+<h4 id="常用参数"><a href="#常用参数" class="headerlink" title="常用参数:"></a>常用参数:</h4><ul>
+<li>-A: 列出所有的进程</li>
+<li>-l: 长格式（有F,wchan,C 等字段)</li>
+<li>-w: 显示加宽可以显示较多的资讯</li>
+<li>-au: 显示较详细的资讯</li>
+<li>aux: 显示所有包含其他使用者的行程</li>
+<li>-m: 显示所有的线程</li>
+</ul>
+<h4 id="详细进程信息输出的解释："><a href="#详细进程信息输出的解释：" class="headerlink" title="详细进程信息输出的解释："></a>详细进程信息输出的解释：</h4><ul>
+<li>USER: 进程的属主；</li>
+<li>PID: 进程的ID；</li>
+<li>PPID: 父进程；</li>
+<li>%CPU: 进程占用的CPU百分比；</li>
+<li>%MEM: 占用内存的百分比；</li>
+<li>NI: 进程的NICE值，数值大，表示较少占用CPU时间；</li>
+<li>VSZ: 进程虚拟大小；</li>
+<li>RSS: 驻留中页的数量；</li>
+<li>TTY: 终端ID</li>
+<li>STAT: 进程状态（有以下几种）</li>
+<li>D: 无法中断的休眠状态（通常 IO 的进程）；</li>
+<li>R: 正在运行可中在队列中可过行的；</li>
+<li>S: 处于休眠状态；</li>
+<li>T: 停止或被追踪；</li>
+<li>Z: 僵尸进程；</li>
+</ul>
+<hr>
+<h3 id="tail"><a href="#tail" class="headerlink" title="tail"></a>tail</h3><blockquote>
+<p>输入文件中的尾部内容</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#监视filename文件的尾部内容（默认10行，相当于增加参数 -n 10），动态刷新显示在屏幕上。command + c 退出。</span></div><div class="line">tail -f filename</div><div class="line"></div><div class="line"><span class="comment">#显示filename最后20行。</span></div><div class="line">tail -n 20 filename</div><div class="line"></div><div class="line"><span class="comment">#逆序显示filename最后10行。</span></div><div class="line">tail -r -n 10 filename</div></pre></td></tr></table></figure>
+<hr>
+<h3 id="ssh"><a href="#ssh" class="headerlink" title="ssh"></a>ssh</h3><blockquote>
+<p>ssh命令是openssh套件中的客户端连接工具，可以给予ssh加密协议实现安全的远程登录服务器。</p>
+</blockquote>
+<p>登录远程服务器：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ssh user@host</div><div class="line"><span class="comment"># user =&gt; 用户名</span></div><div class="line"><span class="comment"># host =&gt; 远程服务器</span></div></pre></td></tr></table></figure>
+<p>上面的命令，登陆的是SSH默认使用的端口(port 22)，如果登陆其他端口，在命令的后面加上 -p port 参数。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh user@host -p port</div></pre></td></tr></table></figure>
+<p>生成本设备的ssh key:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ssh-keygen</div><div class="line"><span class="comment">#运行上面的命令以后，系统会出现一系列提示，可以一路回车。</span></div><div class="line"><span class="comment">#运行结束以后，在~/.ssh/目录下，会新生成两个文件：id_rsa.pub和id_rsa。前者是公钥，后者是私钥。</span></div></pre></td></tr></table></figure></p>
+<p>将公钥传送到远程服务器上面：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ssh-copy-id user@host</div><div class="line"><span class="comment">#将公钥保存在远程服务器的$HOME/.ssh/authorized_keys文件中</span></div><div class="line"><span class="comment">#可以免输入密码登录服务器</span></div></pre></td></tr></table></figure></p>
+<hr>
+<h3 id="scp"><a href="#scp" class="headerlink" title="scp"></a>scp</h3><blockquote>
+<p>远程拷贝文件的命令</p>
+</blockquote>
+<p>上传本地文件到远程机器指定目录<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">scp ~/directory/file1 user@host:~/target/</div><div class="line"><span class="comment">#将本地的file1文件上传至服务器的target文件夹</span></div></pre></td></tr></table></figure></p>
+<p>从远程服务器复制文件到本地目录<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">scp user@host:~/directory/file2 ~/target/</div><div class="line"><span class="comment">#将远程服务器的file2文件复制到本地target文件夹</span></div></pre></td></tr></table></figure></p>
+<p>如果上传／下载目录，需要添加 -r 参数</p>
+<hr>
+<h3 id="nohup-Linux-only"><a href="#nohup-Linux-only" class="headerlink" title="nohup (Linux only)"></a>nohup (Linux only)</h3><blockquote>
+<p>nohup命令可以将程序以忽略挂起(SIGHUP)信号的方式运行起来，被运行的程序的输出信息将不会显示到终端。</p>
+</blockquote>
+<p>该命令的一般形式为：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nohup <span class="built_in">command</span> &amp;</div></pre></td></tr></table></figure></p>
+<p>如果使用nohup命令提交作业，那么在缺省情况下该作业的所有输出都被重定向到一个名为nohup.out的文件中，除非另外指定了输出文件：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nohup <span class="built_in">command</span> &gt; myout.file 2&gt;&amp;1 &amp;</div></pre></td></tr></table></figure></p>
+<ul>
+<li>在上面的例子中，输出被重定向到myout.file文件中。</li>
+<li>2&gt;&amp;1是将标准错误（2）重定向到标准输出（&amp;1），标准输出（&amp;1）再被重定向输入到myout.file文件中。</li>
+<li>使用 jobs -l 查看任务。</li>
+<li>使用 kill pid 关闭。</li>
+</ul>
+<hr>
+<h3 id="pwd"><a href="#pwd" class="headerlink" title="pwd"></a>pwd</h3><blockquote>
+<p>显示用户当前工作目录</p>
+</blockquote>
+<hr>
+<h3 id="alias"><a href="#alias" class="headerlink" title="alias"></a>alias</h3><blockquote>
+<p>设置指令的别名</p>
+</blockquote>
+<ul>
+<li><p>语法：alias name=’command line’</p>
+</li>
+<li><p>别名永久化：添加至/etc/bashrc</p>
+</li>
+</ul>
+<hr>
+<h3 id="mkdir"><a href="#mkdir" class="headerlink" title="mkdir"></a>mkdir</h3><blockquote>
+<p>创建目录</p>
+</blockquote>
+<hr>
+<h3 id="touch"><a href="#touch" class="headerlink" title="touch"></a>touch</h3><blockquote>
+<p>创建文件</p>
+</blockquote>
+<hr>
+<h3 id="cat"><a href="#cat" class="headerlink" title="cat"></a>cat</h3><blockquote>
+<p>查看文件</p>
+</blockquote>
+<hr>
+<h3 id="nano-vi-vim"><a href="#nano-vi-vim" class="headerlink" title="nano / vi / vim"></a>nano / vi / vim</h3><blockquote>
+<p>编辑文件</p>
+</blockquote>
+<hr>
+<h3 id="ls"><a href="#ls" class="headerlink" title="ls"></a>ls</h3><blockquote>
+<p>显示目标列表</p>
+</blockquote>
+<ul>
+<li>-a：显示所有档案及目录（ls内定将档案名或目录名称为“.”的视为影藏，不会列出）； </li>
+<li>-A：显示除影藏文件“.”和“..”以外的所有文件列表； </li>
+<li>-C：多列显示输出结果。这是默认选项； </li>
+<li>-l：以长格式显示目录下的内容列表。输出文件详细信息；</li>
+<li>-lh: 会根据文件的大小选择显示的单位是“K”、“M”还是“G”；</li>
+<li>| wc -w: 查看文件个数</li>
+<li>-F：在每个输出项后追加文件的类型标识符，具体含义：“*”表示具有可执行权限的普通文件，“/”表示目录，“@”表示符号链接，“|”表示命令管道FIFO，“=”表示sockets套接字。当文件为普通文件时，不输出任何标识符； </li>
+<li>-b：将文件中的不可输出的字符以反斜线“”加字符编码的方式输出； </li>
+<li>-c：与“-lt”选项连用时，按照文件状态时间排序输出目录内容，排序的依据是文件的索引节点中的ctime字段。与“-l”选项连用时，则排序的一句是文件的状态改变时间； </li>
+<li>-d：仅显示目录名，而不显示目录下的内容列表。显示符号链接文件本身，而不显示其所指向的目录列表； </li>
+<li>-f：此参数的效果和同时指定“aU”参数相同，并关闭“lst”参数的效果； </li>
+<li>-i：显示文件索引节点号（inode）。一个索引节点代表一个文件； </li>
+<li>-k：以KB（千字节）为单位显示文件大小； </li>
+<li>-m：用“,”号区隔每个文件和目录的名称； </li>
+<li>-n：以用户识别码和群组识别码替代其名称； </li>
+<li>-r：以文件名反序排列并输出目录内容列表； </li>
+<li>-s：显示文件和目录的大小，以区块为单位； </li>
+<li>-t：用文件和目录的更改时间排序； </li>
+<li>-L：如果遇到性质为符号链接的文件或目录，直接列出该链接所指向的原始文件或目录； </li>
+<li>-R：递归处理，将指定目录下的所有文件及子目录一并处理； </li>
+<li>–full-time：列出完整的日期与时间； </li>
+<li>–color[=WHEN]：使用不同的颜色高亮显示不同类型的。</li>
+</ul>
+<hr>
+<h3 id="rm"><a href="#rm" class="headerlink" title="rm"></a>rm</h3><blockquote>
+<p>删除目标</p>
+</blockquote>
+<ul>
+<li>-d：直接把欲删除的目录的硬连接数据删除成0，删除该目录； </li>
+<li>-f：强制删除文件或目录；</li>
+<li>-i：删除已有文件或目录之前先询问用户； </li>
+<li>-r或-R：递归处理，将指定目录下的所有文件与子目录一并处理； </li>
+<li>–preserve-root：不对根目录进行递归操作； </li>
+<li>-v：显示指令的详细执行过程。</li>
+</ul>
+<hr>
+<h3 id="cp"><a href="#cp" class="headerlink" title="cp"></a>cp</h3><blockquote>
+<p>将一个或多个源文件或者目录复制到指定的目的文件或目录</p>
+</blockquote>
+<ul>
+<li>-a：此参数的效果和同时指定”-dpR”参数相同； </li>
+<li>-d：当复制符号连接时，把目标文件或目录也建立为符号连接，并指向与源文件或目录连接的原始文件或目录； </li>
+<li>-f：强行复制文件或目录，不论目标文件或目录是否已存在； </li>
+<li>-i：覆盖既有文件之前先询问用户； </li>
+<li>-l：对源文件建立硬连接，而非复制文件； </li>
+<li>-p：保留源文件或目录的属性； </li>
+<li>-R/r：递归处理，将指定目录下的所有文件与子目录一并处理； </li>
+<li>-s：对源文件建立符号连接，而非复制文件； </li>
+<li>-u：使用这项参数后只会在源文件的更改时间较目标文件更新时或是名称相互对应的目标文件并不存在时，才复制文件； </li>
+<li>-S：在备份文件时，用指定的后缀“SUFFIX”代替文件的默认后缀； </li>
+<li>-b：覆盖已存在的文件目标前将目标文件备份； -v：详细显示命令执行的操作。</li>
+</ul>
+<p>实例：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="comment">#将文件file复制到目录/usr/men/tmp下，并改名为file1 </span></div><div class="line">cp file /usr/men/tmp/file1 </div><div class="line"></div><div class="line"><span class="comment">#将目录/usr/men下的所有文件及其子目录复制到目录/usr/zh中 </span></div><div class="line">cp -r /usr/men /usr/zh </div><div class="line"></div><div class="line"><span class="comment">#交互式地将目录/usr/men中的以m打头的所有.c文件复制到目录/usr/zh中 </span></div><div class="line">cp -i /usr/men m*.c /usr/zh</div></pre></td></tr></table></figure></p>
+<hr>
+<h3 id="mv"><a href="#mv" class="headerlink" title="mv"></a>mv</h3><blockquote>
+<p>用来对文件或目录重新命名，或者将文件从一个目录移到另一个目录中</p>
+</blockquote>
+<ul>
+<li>–backup=&lt;备份模式&gt;：若需覆盖文件，则覆盖前先行备份； </li>
+<li>-b：当文件存在时，覆盖前，为其创建一个备份； </li>
+<li>-f：若目标文件或目录与现有的文件或目录重复，则直接覆盖现有的文件或目录； </li>
+<li>-i：交互式操作，覆盖前先行询问用户，如果源文件与目标文件或目标目录中的文件同名，则询问用户是否覆盖目标文件。用户输入”y”，表示将覆盖目标文件；输入”n”，表示取消对源文件的移动。这样可以避免误将文件覆盖。 </li>
+<li>–strip-trailing-slashes：删除源文件中的斜杠“/”； </li>
+<li>-S&lt;后缀&gt;：为备份文件指定后缀，而不使用默认的后缀； </li>
+<li>–target-directory=&lt;目录&gt;：指定源文件要移动到目标目录； </li>
+<li>-u：当源文件比目标文件新或者目标文件不存在时，才执行移动操作。</li>
+</ul>
+<p>实例：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#将文件ex3改名为new1 </span></div><div class="line">mv ex3 new1 </div><div class="line"></div><div class="line"><span class="comment">#将目录/usr/men中的所有文件移到当前目录（用.表示）中： </span></div><div class="line">mv /usr/men/* .</div></pre></td></tr></table></figure></p>
+<hr>
+<h3 id="cd"><a href="#cd" class="headerlink" title="cd"></a>cd</h3><blockquote>
+<p>切换工作目录</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>本文内容来源：<a href="http://man.linuxde.net/" target="_blank" rel="external">http://man.linuxde.net/</a></p>
+</blockquote>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Unix-Unix-like/" rel="tag"># Unix/Unix-like</a>
+          
+            <a href="/tags/terminal/" rel="tag"># terminal</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/10/14/mac下安装使用MySQL/" rel="next" title="macOS安装使用MySQL">
+                <i class="fa fa-chevron-left"></i> macOS安装使用MySQL
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/10/18/Headless-Chrome和Puppeteer的使用/" rel="prev" title="Headless Chrome和Puppeteer的使用">
+                Headless Chrome和Puppeteer的使用 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpg"
+               alt="李晓强" />
+          <p class="site-author-name" itemprop="name">李晓强</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">52</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">21</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">48</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/xq-li" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/xiao_qiang_li" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#tar"><span class="nav-number">1.</span> <span class="nav-text">tar</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#du"><span class="nav-number">2.</span> <span class="nav-text">du</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ps"><span class="nav-number">3.</span> <span class="nav-text">ps</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#常用参数"><span class="nav-number">3.1.</span> <span class="nav-text">常用参数:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#详细进程信息输出的解释："><span class="nav-number">3.2.</span> <span class="nav-text">详细进程信息输出的解释：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#tail"><span class="nav-number">4.</span> <span class="nav-text">tail</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ssh"><span class="nav-number">5.</span> <span class="nav-text">ssh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#scp"><span class="nav-number">6.</span> <span class="nav-text">scp</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#nohup-Linux-only"><span class="nav-number">7.</span> <span class="nav-text">nohup (Linux only)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#pwd"><span class="nav-number">8.</span> <span class="nav-text">pwd</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#alias"><span class="nav-number">9.</span> <span class="nav-text">alias</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#mkdir"><span class="nav-number">10.</span> <span class="nav-text">mkdir</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#touch"><span class="nav-number">11.</span> <span class="nav-text">touch</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#cat"><span class="nav-number">12.</span> <span class="nav-text">cat</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#nano-vi-vim"><span class="nav-number">13.</span> <span class="nav-text">nano / vi / vim</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ls"><span class="nav-number">14.</span> <span class="nav-text">ls</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#rm"><span class="nav-number">15.</span> <span class="nav-text">rm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#cp"><span class="nav-number">16.</span> <span class="nav-text">cp</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#mv"><span class="nav-number">17.</span> <span class="nav-text">mv</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#cd"><span class="nav-number">18.</span> <span class="nav-text">cd</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">李晓强</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

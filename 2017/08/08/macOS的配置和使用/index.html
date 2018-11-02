@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+
+
+
+
+<html class="theme-next pisces" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="macOS,Unix/Unix-like,Homebrew," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="macOS的配置和使用Homebrew (Package Manager For macOS)Install1$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;">
+<meta name="keywords" content="macOS,Unix&#x2F;Unix-like,Homebrew">
+<meta property="og:type" content="article">
+<meta property="og:title" content="macOS的配置和使用">
+<meta property="og:url" content="http://www.xiaoqiangli.com/2017/08/08/macOS的配置和使用/index.html">
+<meta property="og:site_name" content="李晓强">
+<meta property="og:description" content="macOS的配置和使用Homebrew (Package Manager For macOS)Install1$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-06-09T09:14:20.468Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="macOS的配置和使用">
+<meta name="twitter:description" content="macOS的配置和使用Homebrew (Package Manager For macOS)Install1$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    motion: false,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://www.xiaoqiangli.com/2017/08/08/macOS的配置和使用/"/>
+
+
+
+
+
+  <title>macOS的配置和使用 | 李晓强</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">李晓强</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Software Developer</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://www.xiaoqiangli.com/2017/08/08/macOS的配置和使用/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="李晓强">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="李晓强">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">macOS的配置和使用</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-08-08T12:17:02+08:00">
+                2017-08-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/macOS/" itemprop="url" rel="index">
+                    <span itemprop="name">macOS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="macOS的配置和使用"><a href="#macOS的配置和使用" class="headerlink" title="macOS的配置和使用"></a>macOS的配置和使用</h1><h2 id="Homebrew-Package-Manager-For-macOS"><a href="#Homebrew-Package-Manager-For-macOS" class="headerlink" title="Homebrew (Package Manager For macOS)"></a><a href="https://brew.sh/index_zh-cn.html" target="_blank" rel="external">Homebrew</a> (Package Manager For macOS)</h2><h3 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ /usr/bin/ruby -e <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<h3 id="更换默认源"><a href="#更换默认源" class="headerlink" title="更换默认源"></a>更换默认源</h3><blockquote>
+<p>Homebrew的更新源由三部分组成：本体（brew.git）、核心（homebrew-core.git）以及二进制预编译包（homebrew-bottles）。<br>默认官方的更新源都是存放在GitHub上的，所以我们会倾向于选择国内提供的更新源，可以提高访问速度。（本文中默认更换的是中国科大的软件源）</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 替换brew.git:</span></div><div class="line">$ <span class="built_in">cd</span> <span class="string">"<span class="variable">$(brew --repo)</span>"</span></div><div class="line">$ git remote <span class="built_in">set</span>-url origin https://mirrors.ustc.edu.cn/brew.git</div><div class="line"></div><div class="line"><span class="comment"># 替换homebrew-core.git:</span></div><div class="line">$ <span class="built_in">cd</span> <span class="string">"<span class="variable">$(brew --repo)</span>/Library/Taps/homebrew/homebrew-core"</span></div><div class="line">$ git remote <span class="built_in">set</span>-url origin https://mirrors.ustc.edu.cn/homebrew-core.git</div><div class="line"></div><div class="line"><span class="comment"># 增加homebrew-bottles环境变量:</span></div><div class="line">$ <span class="built_in">echo</span> <span class="string">'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles'</span> &gt;&gt; ~/.bash_profile</div><div class="line">$ <span class="built_in">source</span> ~/.bash_profile</div><div class="line"></div><div class="line"><span class="comment"># 更新软件源:</span></div><div class="line">$ brew update</div><div class="line"></div><div class="line"><span class="comment"># 更新现有软件</span></div><div class="line">$ brew upgrade</div><div class="line"></div><div class="line"><span class="comment"># 清理旧有的软件包</span></div><div class="line">$ brew cleanup</div></pre></td></tr></table></figure>
+<h3 id="重置回默认源"><a href="#重置回默认源" class="headerlink" title="重置回默认源"></a>重置回默认源</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 重置brew.git:</span></div><div class="line">$ <span class="built_in">cd</span> <span class="string">"<span class="variable">$(brew --repo)</span>"</span></div><div class="line">$ git remote <span class="built_in">set</span>-url origin https://github.com/Homebrew/brew.git</div><div class="line"></div><div class="line"><span class="comment"># 重置homebrew-core.git:</span></div><div class="line">$ <span class="built_in">cd</span> <span class="string">"<span class="variable">$(brew --repo)</span>/Library/Taps/homebrew/homebrew-core"</span></div><div class="line">$ git remote <span class="built_in">set</span>-url origin https://github.com/Homebrew/homebrew-core.git</div><div class="line"></div><div class="line"><span class="comment"># 删除环境变量HOMEBREW_BOTTLE_DOMAIN</span></div><div class="line"></div><div class="line"><span class="comment"># 更新软件源</span></div><div class="line">$ brew update</div></pre></td></tr></table></figure>
+<h3 id="常用安装包"><a href="#常用安装包" class="headerlink" title="常用安装包"></a>常用安装包</h3><ul>
+<li>unrar</li>
+</ul>
+<blockquote>
+<p>rar文件解压</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ unrar x file.rar</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h2><h3 id="在文件夹顶部显示完整文件路径"><a href="#在文件夹顶部显示完整文件路径" class="headerlink" title="在文件夹顶部显示完整文件路径"></a>在文件夹顶部显示完整文件路径</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES</div></pre></td></tr></table></figure>
+<hr>
+<h3 id="DS-Store"><a href="#DS-Store" class="headerlink" title=".DS_Store"></a>.DS_Store</h3><blockquote>
+<p>.DS_Store是Mac OS保存文件夹的自定义属性的隐藏文件，如文件的图标位置或背景色，相当于Windows的desktop.ini。</p>
+</blockquote>
+<h4 id="禁止-DS-store生成（重启Mac即可生效）："><a href="#禁止-DS-store生成（重启Mac即可生效）：" class="headerlink" title="禁止.DS_store生成（重启Mac即可生效）："></a>禁止.DS_store生成（重启Mac即可生效）：</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE</div></pre></td></tr></table></figure>
+<h4 id="恢复-DS-store生成（重启Mac即可生效）："><a href="#恢复-DS-store生成（重启Mac即可生效）：" class="headerlink" title="恢复.DS_store生成（重启Mac即可生效）："></a>恢复.DS_store生成（重启Mac即可生效）：</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ defaults delete com.apple.desktopservices DSDontWriteNetworkStores</div></pre></td></tr></table></figure>
+<h4 id="删除所有-DS-Store文件"><a href="#删除所有-DS-Store文件" class="headerlink" title="删除所有.DS_Store文件"></a>删除所有.DS_Store文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo find / -name <span class="string">".DS_Store"</span> -depth -<span class="built_in">exec</span> rm &#123;&#125; \</div></pre></td></tr></table></figure>
+<hr>
+<h3 id="重置-Launchpad"><a href="#重置-Launchpad" class="headerlink" title="重置 Launchpad"></a>重置 Launchpad</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">defaults write com.apple.dock ResetLaunchPad -bool <span class="literal">true</span></div><div class="line">killall Dock</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><ul>
+<li><p>显示隐藏文件夹 : Command + Shift + .</p>
+</li>
+<li><p>打开多个终端(需要保持焦点在终端上)</p>
+<ul>
+<li>打开新的终端页面 : Command + N</li>
+<li>在当前终端内打开新的Tap : Command + T</li>
+</ul>
+</li>
+</ul>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/macOS/" rel="tag"># macOS</a>
+          
+            <a href="/tags/Unix-Unix-like/" rel="tag"># Unix/Unix-like</a>
+          
+            <a href="/tags/Homebrew/" rel="tag"># Homebrew</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/08/08/使用Node-js实现微信接入验证/" rel="next" title="使用Node.js实现微信接入验证">
+                <i class="fa fa-chevron-left"></i> 使用Node.js实现微信接入验证
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/08/09/动态加载JS/" rel="prev" title="动态加载JS">
+                动态加载JS <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpg"
+               alt="李晓强" />
+          <p class="site-author-name" itemprop="name">李晓强</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">52</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">21</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">48</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/xq-li" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/xiao_qiang_li" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#macOS的配置和使用"><span class="nav-number">1.</span> <span class="nav-text">macOS的配置和使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Homebrew-Package-Manager-For-macOS"><span class="nav-number">1.1.</span> <span class="nav-text">Homebrew (Package Manager For macOS)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Install"><span class="nav-number">1.1.1.</span> <span class="nav-text">Install</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#更换默认源"><span class="nav-number">1.1.2.</span> <span class="nav-text">更换默认源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#重置回默认源"><span class="nav-number">1.1.3.</span> <span class="nav-text">重置回默认源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用安装包"><span class="nav-number">1.1.4.</span> <span class="nav-text">常用安装包</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置"><span class="nav-number">1.2.</span> <span class="nav-text">设置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#在文件夹顶部显示完整文件路径"><span class="nav-number">1.2.1.</span> <span class="nav-text">在文件夹顶部显示完整文件路径</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#DS-Store"><span class="nav-number">1.2.2.</span> <span class="nav-text">.DS_Store</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#禁止-DS-store生成（重启Mac即可生效）："><span class="nav-number">1.2.2.1.</span> <span class="nav-text">禁止.DS_store生成（重启Mac即可生效）：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#恢复-DS-store生成（重启Mac即可生效）："><span class="nav-number">1.2.2.2.</span> <span class="nav-text">恢复.DS_store生成（重启Mac即可生效）：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#删除所有-DS-Store文件"><span class="nav-number">1.2.2.3.</span> <span class="nav-text">删除所有.DS_Store文件</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#重置-Launchpad"><span class="nav-number">1.2.3.</span> <span class="nav-text">重置 Launchpad</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#快捷键"><span class="nav-number">1.3.</span> <span class="nav-text">快捷键</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">李晓强</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

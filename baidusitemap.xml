@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/11/02/Primary-Commands-for-tmux/</loc>
+    <lastmod>2018-11-02T06:37:12.773Z</lastmod>
+    <data>
+        <display>
+        <title>Primary Commands for tmux</title>
+        <pubTime>2018-11-02T06:33:28.000Z</pubTime>
+        
+        <tag>terminal</tag>
+         
+        <tag>tmux</tag>
+         
+         
+           
+             
+              <breadCrumb title="tmux" url="http://www.xiaoqiangli.com/categories/tmux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/11/01/Changing-python-version-of-conda/</loc>
+    <lastmod>2018-11-01T12:32:15.577Z</lastmod>
+    <data>
+        <display>
+        <title>Changing python version of conda</title>
+        <pubTime>2018-11-01T11:52:31.365Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Python" url="http://www.xiaoqiangli.com/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/11/01/Setting-up-OpenCV-development-environment-on-macOS/</loc>
+    <lastmod>2018-11-01T12:11:01.636Z</lastmod>
+    <data>
+        <display>
+        <title>Setting up OpenCV development environment on macOS</title>
+        <pubTime>2018-11-01T10:08:32.000Z</pubTime>
+        
+        <tag>macOS</tag>
+         
+        <tag>Python</tag>
+         
+        <tag>C++</tag>
+         
+        <tag>OpenCV</tag>
+         
+         
+           
+             
+              <breadCrumb title="OpenCV" url="http://www.xiaoqiangli.com/categories/OpenCV/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/01/07/%E5%9B%BD%E5%86%85%E5%BC%80%E6%BA%90%E9%95%9C%E5%83%8F%E7%AB%99%E7%82%B9/</loc>
+    <lastmod>2018-11-01T11:43:07.339Z</lastmod>
+    <data>
+        <display>
+        <title>国内开源镜像站点</title>
+        <pubTime>2018-01-07T04:01:36.000Z</pubTime>
+        
+        <tag>Mirroring</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mirroring" url="http://www.xiaoqiangli.com/categories/Mirroring/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/10/17/pip-conda-%E5%88%87%E6%8D%A2%E5%9B%BD%E5%86%85%E6%BA%90/</loc>
+    <lastmod>2018-10-17T12:58:15.322Z</lastmod>
+    <data>
+        <display>
+        <title>pip conda 切换国内源</title>
+        <pubTime>2018-10-17T12:41:44.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+        <tag>pip</tag>
+         
+        <tag>conda</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://www.xiaoqiangli.com/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/10/07/Docker-data-%E8%B7%AF%E5%BE%84-%E6%B8%85%E7%90%86-Docker-%E5%AE%B9%E5%99%A8/</loc>
+    <lastmod>2018-10-17T12:43:38.573Z</lastmod>
+    <data>
+        <display>
+        <title>Docker data 路径 / 清理 Docker 容器</title>
+        <pubTime>2018-10-06T17:52:20.000Z</pubTime>
+        
+        <tag>Docker</tag>
+         
+         
+           
+             
+              <breadCrumb title="Docker" url="http://www.xiaoqiangli.com/categories/Docker/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/10/08/vim-%E5%88%A0%E9%99%A4%E7%AC%AC-n-%E8%A1%8C%E5%88%B0%E7%AC%AC-m-%E8%A1%8C/</loc>
+    <lastmod>2018-10-08T11:42:54.977Z</lastmod>
+    <data>
+        <display>
+        <title>vim 删除第 n 行到第 m 行</title>
+        <pubTime>2018-10-08T11:38:13.000Z</pubTime>
+        
+        <tag>vi/vim</tag>
+         
+         
+           
+             
+              <breadCrumb title="vi/vim" url="http://www.xiaoqiangli.com/categories/vi-vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/10/18/Linux-macOS%E5%B8%B8%E7%94%A8terminal%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2018-09-19T11:16:41.198Z</lastmod>
+    <data>
+        <display>
+        <title>Linux / macOS常用terminal命令</title>
+        <pubTime>2017-10-18T02:16:11.000Z</pubTime>
+        
+        <tag>Unix/Unix-like</tag>
+         
+        <tag>terminal</tag>
+         
+         
+           
+             
+              <breadCrumb title="Unix/Unix-like" url="http://www.xiaoqiangli.com/categories/Unix-Unix-like/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/09/16/Mac-%E9%94%AE%E7%9B%98%E4%B8%8E%E7%AC%A6%E5%8F%B7%E5%AF%B9%E5%BA%94%E5%85%B3%E7%B3%BB/</loc>
+    <lastmod>2018-09-15T16:33:08.512Z</lastmod>
+    <data>
+        <display>
+        <title>Mac 键盘与符号对应关系</title>
+        <pubTime>2018-09-15T16:31:47.000Z</pubTime>
+        
+        <tag>macOS</tag>
+         
+         
+           
+             
+              <breadCrumb title="macOS" url="http://www.xiaoqiangli.com/categories/macOS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/06/22/mac-%E4%B8%8B%E9%85%8D%E7%BD%AE-adb-Andorid-Debug-Bridge-%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</loc>
+    <lastmod>2018-09-15T16:32:09.819Z</lastmod>
+    <data>
+        <display>
+        <title>mac 下配置 adb(Andorid Debug Bridge) 环境变量</title>
+        <pubTime>2018-06-22T09:10:50.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>macOS</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://www.xiaoqiangli.com/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/09/19/Linux-Mac-curl-%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2018-09-05T03:14:41.128Z</lastmod>
+    <data>
+        <display>
+        <title>Linux / macOS 使用 curl</title>
+        <pubTime>2017-09-19T06:59:49.000Z</pubTime>
+        
+        <tag>Unix/Unix-like</tag>
+         
+        <tag>terminal</tag>
+         
+         
+           
+             
+              <breadCrumb title="Unix/Unix-like" url="http://www.xiaoqiangli.com/categories/Unix-Unix-like/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/08/30/VPS-%E6%90%AD%E5%BB%BA-Shadowsocks/</loc>
+    <lastmod>2018-08-30T06:44:09.139Z</lastmod>
+    <data>
+        <display>
+        <title>VPS 搭建 Shadowsocks</title>
+        <pubTime>2018-08-30T06:07:32.000Z</pubTime>
+        
+        <tag>Shadowsocks</tag>
+         
+         
+           
+             
+              <breadCrumb title="Shadowsocks" url="http://www.xiaoqiangli.com/categories/Shadowsocks/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/08/22/mac%E4%B8%8B%E4%BD%BF%E7%94%A8dd%E5%91%BD%E4%BB%A4%E5%B0%86%E9%95%9C%E5%83%8F%E5%86%99%E5%85%A5u%E7%9B%98/</loc>
+    <lastmod>2018-08-22T09:53:45.934Z</lastmod>
+    <data>
+        <display>
+        <title>mac下使用dd命令将镜像写入u盘</title>
+        <pubTime>2018-08-22T09:39:43.000Z</pubTime>
+        
+        <tag>macOS</tag>
+         
+        <tag>Unix/Unix-like</tag>
+         
+        <tag>terminal</tag>
+         
+         
+           
+             
+              <breadCrumb title="Unix/Unix-like" url="http://www.xiaoqiangli.com/categories/Unix-Unix-like/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/08/13/FFmpeg-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2018-08-13T12:13:43.939Z</lastmod>
+    <data>
+        <display>
+        <title>FFmpeg 常用命令</title>
+        <pubTime>2018-08-13T12:12:18.000Z</pubTime>
+        
+        <tag>FFmpeg</tag>
+         
+         
+           
+             
+              <breadCrumb title="FFmpeg" url="http://www.xiaoqiangli.com/categories/FFmpeg/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/06/22/Android%E5%B9%B3%E5%8F%B0%E4%B8%8A%E7%9A%84CPU%E7%B1%BB%E5%9E%8B/</loc>
+    <lastmod>2018-08-03T09:12:09.842Z</lastmod>
+    <data>
+        <display>
+        <title>Android平台上的CPU类型</title>
+        <pubTime>2018-06-22T08:52:24.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://www.xiaoqiangli.com/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/02/01/Git%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2018-08-03T09:10:49.715Z</lastmod>
+    <data>
+        <display>
+        <title>Git的使用</title>
+        <pubTime>2018-02-01T03:31:39.000Z</pubTime>
+        
+        <tag>Git</tag>
+         
+         
+           
+             
+              <breadCrumb title="Git" url="http://www.xiaoqiangli.com/categories/Git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/08/03/npm-%E6%9B%B4%E6%8D%A2%E5%9B%BD%E5%86%85%E6%BA%90/</loc>
+    <lastmod>2018-08-03T09:05:29.020Z</lastmod>
+    <data>
+        <display>
+        <title>npm 更换国内源</title>
+        <pubTime>2018-08-03T08:42:46.000Z</pubTime>
+        
+        <tag>node</tag>
+         
+        <tag>npm</tag>
+         
+         
+           
+             
+              <breadCrumb title="node" url="http://www.xiaoqiangli.com/categories/node/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/10/18/Headless-Chrome%E5%92%8CPuppeteer%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2018-08-03T08:43:20.596Z</lastmod>
+    <data>
+        <display>
+        <title>Headless Chrome和Puppeteer的使用</title>
+        <pubTime>2017-10-18T07:13:12.000Z</pubTime>
+        
+        <tag>node</tag>
+         
+        <tag>spider</tag>
+         
+        <tag>chrome</tag>
+         
+        <tag>puppeteer</tag>
+         
+        <tag>npm</tag>
+         
+         
+           
+             
+              <breadCrumb title="spider" url="http://www.xiaoqiangli.com/categories/spider/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/07/20/Android%E9%A2%9C%E8%89%B2%E9%80%8F%E6%98%8E%E5%BA%A6%E7%99%BE%E5%88%86%E6%AF%94%E5%92%8C%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E5%AF%B9%E5%BA%94%E5%85%B3%E7%B3%BB/</loc>
+    <lastmod>2018-07-20T06:30:14.465Z</lastmod>
+    <data>
+        <display>
+        <title>Android颜色透明度百分比和十六进制对应关系</title>
+        <pubTime>2018-07-20T06:11:19.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://www.xiaoqiangli.com/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/06/21/macOS-%E4%B8%8B%E5%8A%A8%E6%80%81%E5%88%87%E6%8D%A2JDK%E7%89%88%E6%9C%AC/</loc>
+    <lastmod>2018-06-20T17:07:50.333Z</lastmod>
+    <data>
+        <display>
+        <title>macOS 下动态切换JDK版本</title>
+        <pubTime>2018-06-20T16:57:22.000Z</pubTime>
+        
+        <tag>macOS</tag>
+         
+        <tag>Java</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="http://www.xiaoqiangli.com/categories/Java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/08/08/macOS%E7%9A%84%E9%85%8D%E7%BD%AE%E5%92%8C%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2018-06-09T09:14:20.468Z</lastmod>
+    <data>
+        <display>
+        <title>macOS的配置和使用</title>
+        <pubTime>2017-08-08T04:17:02.000Z</pubTime>
+        
+        <tag>macOS</tag>
+         
+        <tag>Unix/Unix-like</tag>
+         
+        <tag>Homebrew</tag>
+         
+         
+           
+             
+              <breadCrumb title="macOS" url="http://www.xiaoqiangli.com/categories/macOS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/05/21/JS%E4%B8%AD%E7%9A%84apply%E3%80%81call%E3%80%81bind/</loc>
+    <lastmod>2018-05-21T10:20:59.575Z</lastmod>
+    <data>
+        <display>
+        <title>JS中的apply、call、bind、this</title>
+        <pubTime>2018-05-21T09:05:18.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="JavaScript" url="http://www.xiaoqiangli.com/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/07/23/javascript-oop/</loc>
+    <lastmod>2018-05-21T09:56:56.396Z</lastmod>
+    <data>
+        <display>
+        <title>JavaScript OOP</title>
+        <pubTime>2017-07-23T06:28:20.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="JavaScript" url="http://www.xiaoqiangli.com/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/05/18/Python-s-SimpleHTTPServer-module/</loc>
+    <lastmod>2018-05-18T12:09:41.854Z</lastmod>
+    <data>
+        <display>
+        <title>Python's SimpleHTTPServer Module</title>
+        <pubTime>2018-05-18T11:01:15.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://www.xiaoqiangli.com/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/04/08/JavaScript-Math%E5%AF%B9%E8%B1%A1%E5%92%8CNumber%E5%AF%B9%E8%B1%A1/</loc>
+    <lastmod>2018-04-08T08:57:46.000Z</lastmod>
+    <data>
+        <display>
+        <title>JavaScript Math对象和Number对象</title>
+        <pubTime>2018-04-08T08:57:00.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="JavaScript" url="http://www.xiaoqiangli.com/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/09/11/Js%E4%B8%ADNumber-%E3%80%81parseInt-%E5%92%8CparseFloat-%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    <lastmod>2018-04-08T08:39:32.497Z</lastmod>
+    <data>
+        <display>
+        <title>Js中Number()、parseInt()和parseFloat()的区别</title>
+        <pubTime>2017-09-11T02:25:40.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="JavaScript" url="http://www.xiaoqiangli.com/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/04/07/Enable-NTFS-Write-Support-in-macOS/</loc>
+    <lastmod>2018-04-07T15:25:51.000Z</lastmod>
+    <data>
+        <display>
+        <title>Enable NTFS Write Support in macOS</title>
+        <pubTime>2018-04-07T11:21:23.000Z</pubTime>
+        
+        <tag>macOS</tag>
+         
+        <tag>NTFS</tag>
+         
+        <tag>Unix/Unix-like</tag>
+         
+         
+           
+             
+              <breadCrumb title="macOS" url="http://www.xiaoqiangli.com/categories/macOS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/03/17/Vim-Configuration/</loc>
+    <lastmod>2018-03-20T12:41:18.000Z</lastmod>
+    <data>
+        <display>
+        <title>Vim Configuration</title>
+        <pubTime>2018-03-17T08:00:00.000Z</pubTime>
+        
+        <tag>Unix/Unix-like</tag>
+         
+        <tag>vi/vim</tag>
+         
+         
+           
+             
+              <breadCrumb title="vi/vim" url="http://www.xiaoqiangli.com/categories/vi-vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/07/29/Ubuntu%E7%9A%84%E9%85%8D%E7%BD%AE%E5%92%8C%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2018-03-20T12:41:07.000Z</lastmod>
+    <data>
+        <display>
+        <title>Ubuntu的配置和使用</title>
+        <pubTime>2017-07-29T14:48:22.000Z</pubTime>
+        
+        <tag>Unix/Unix-like</tag>
+         
+        <tag>Linux</tag>
+         
+        <tag>Ubuntu</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://www.xiaoqiangli.com/categories/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/03/17/Linux%20Filesystem-Hierarchy-Standard-Overview/</loc>
+    <lastmod>2018-03-17T06:15:30.229Z</lastmod>
+    <data>
+        <display>
+        <title>Linux Filesystem Hierarchy Standard Overview</title>
+        <pubTime>2018-03-17T03:19:53.000Z</pubTime>
+        
+        <tag>Unix/Unix-like</tag>
+         
+         
+           
+             
+              <breadCrumb title="Unix/Unix-like" url="http://www.xiaoqiangli.com/categories/Unix-Unix-like/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/10/18/Linux-macOS%E4%B8%ADprofile%E3%80%81bashrc%E3%80%81-bash-profile%E3%80%81-bashrc%E3%80%81%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    <lastmod>2018-03-17T05:35:35.000Z</lastmod>
+    <data>
+        <display>
+        <title>Linux / macOS中/etc/profile、/etc/bashrc、~/.bash_profile、~/.bashrc、之间的区别</title>
+        <pubTime>2017-10-18T07:54:32.000Z</pubTime>
+        
+        <tag>Unix/Unix-like</tag>
+         
+         
+           
+             
+              <breadCrumb title="Unix/Unix-like" url="http://www.xiaoqiangli.com/categories/Unix-Unix-like/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/10/27/Installing-TensorFlow-on-Mac-OS-X/</loc>
+    <lastmod>2018-03-17T05:21:26.960Z</lastmod>
+    <data>
+        <display>
+        <title>Installing TensorFlow on Mac OS X</title>
+        <pubTime>2017-10-27T07:11:34.000Z</pubTime>
+        
+        <tag>macOS</tag>
+         
+        <tag>Unix/Unix-like</tag>
+         
+        <tag>Python</tag>
+         
+        <tag>pip</tag>
+         
+        <tag>机器学习</tag>
+         
+        <tag>TensorFlow</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="http://www.xiaoqiangli.com/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/08/18/XMLHttpRequest-Fetch/</loc>
+    <lastmod>2018-03-17T04:16:20.000Z</lastmod>
+    <data>
+        <display>
+        <title>原生JS实现XMLHttpRequest 、JSONP 、 Fetch 的封装和使用</title>
+        <pubTime>2017-08-18T09:13:01.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+        <tag>ajax</tag>
+         
+        <tag>jsonp</tag>
+         
+        <tag>fetch</tag>
+         
+         
+           
+             
+              <breadCrumb title="JavaScript" url="http://www.xiaoqiangli.com/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/10/14/mac%E4%B8%8B%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8MySQL/</loc>
+    <lastmod>2018-03-17T04:15:24.132Z</lastmod>
+    <data>
+        <display>
+        <title>macOS安装使用MySQL</title>
+        <pubTime>2017-10-14T07:04:09.000Z</pubTime>
+        
+        <tag>macOS</tag>
+         
+        <tag>Unix/Unix-like</tag>
+         
+        <tag>MySQL</tag>
+         
+         
+           
+             
+              <breadCrumb title="macOS" url="http://www.xiaoqiangli.com/categories/macOS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/09/17/mac%E4%B8%8Bnginx%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2018-03-17T04:15:20.526Z</lastmod>
+    <data>
+        <display>
+        <title>macOS安装使用nginx</title>
+        <pubTime>2017-09-17T14:33:12.000Z</pubTime>
+        
+        <tag>macOS</tag>
+         
+        <tag>Unix/Unix-like</tag>
+         
+        <tag>nginx</tag>
+         
+         
+           
+             
+              <breadCrumb title="macOS" url="http://www.xiaoqiangli.com/categories/macOS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/12/13/macOS%E6%8E%A8%E6%B5%81%E7%9B%B4%E6%92%AD%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <lastmod>2018-03-17T04:15:11.689Z</lastmod>
+    <data>
+        <display>
+        <title>macOS推流直播服务器</title>
+        <pubTime>2017-12-13T15:29:58.000Z</pubTime>
+        
+        <tag>FFmpeg</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>Unix/Unix-like</tag>
+         
+        <tag>nginx</tag>
+         
+         
+           
+             
+              <breadCrumb title="FFmpeg" url="http://www.xiaoqiangli.com/categories/FFmpeg/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/10/27/macOS%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8Virtualenv/</loc>
+    <lastmod>2018-03-17T04:15:00.327Z</lastmod>
+    <data>
+        <display>
+        <title>macOS安装使用Virtualenv</title>
+        <pubTime>2017-10-27T05:14:15.000Z</pubTime>
+        
+        <tag>macOS</tag>
+         
+        <tag>Unix/Unix-like</tag>
+         
+        <tag>Python</tag>
+         
+        <tag>Virtualenv</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://www.xiaoqiangli.com/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/11/25/macOS-%E4%B8%AD%E7%9A%84-Rootless-%E6%9C%BA%E5%88%B6/</loc>
+    <lastmod>2018-03-17T04:14:50.725Z</lastmod>
+    <data>
+        <display>
+        <title>macOS 中的 Rootless 机制</title>
+        <pubTime>2017-11-25T07:43:07.000Z</pubTime>
+        
+        <tag>macOS</tag>
+         
+        <tag>Unix/Unix-like</tag>
+         
+        <tag>Rootless</tag>
+         
+         
+           
+             
+              <breadCrumb title="macOS" url="http://www.xiaoqiangli.com/categories/macOS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/07/23/Create-A-Blog-With-Hexo/</loc>
+    <lastmod>2018-02-21T03:59:32.000Z</lastmod>
+    <data>
+        <display>
+        <title>Create A Blog With Hexo</title>
+        <pubTime>2017-07-23T07:36:52.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/12/27/%E7%9B%B4%E9%80%9A%E7%BA%BF%E5%92%8C%E4%BA%A4%E5%8F%89%E7%BA%BF/</loc>
+    <lastmod>2018-02-16T11:23:26.329Z</lastmod>
+    <data>
+        <display>
+        <title>直通线和交叉线</title>
+        <pubTime>2017-12-27T07:14:22.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="通信/运维" url="http://www.xiaoqiangli.com/categories/%E9%80%9A%E4%BF%A1-%E8%BF%90%E7%BB%B4/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/08/09/%E5%8A%A8%E6%80%81%E5%8A%A0%E8%BD%BDJS/</loc>
+    <lastmod>2018-02-16T11:23:26.327Z</lastmod>
+    <data>
+        <display>
+        <title>动态加载JS</title>
+        <pubTime>2017-08-09T10:43:36.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="JavaScript" url="http://www.xiaoqiangli.com/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/08/08/%E4%BD%BF%E7%94%A8Node-js%E5%AE%9E%E7%8E%B0%E5%BE%AE%E4%BF%A1%E6%8E%A5%E5%85%A5%E9%AA%8C%E8%AF%81/</loc>
+    <lastmod>2018-02-16T11:23:26.327Z</lastmod>
+    <data>
+        <display>
+        <title>使用Node.js实现微信接入验证</title>
+        <pubTime>2017-08-08T02:45:36.000Z</pubTime>
+        
+        <tag>node</tag>
+         
+        <tag>微信</tag>
+         
+         
+           
+             
+              <breadCrumb title="node" url="http://www.xiaoqiangli.com/categories/node/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/12/24/%E4%BD%BF%E7%94%A8ESLint-Airbnb-JavaScript-Style-Guide/</loc>
+    <lastmod>2018-02-16T11:23:26.326Z</lastmod>
+    <data>
+        <display>
+        <title>使用ESLint + Airbnb JavaScript Style Guide</title>
+        <pubTime>2017-12-24T15:57:32.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+        <tag>ESLint</tag>
+         
+         
+           
+             
+              <breadCrumb title="JavaScript" url="http://www.xiaoqiangli.com/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/10/04/Linux%EF%BC%8FMac%E8%AE%BE%E7%BD%AEGolang%E7%9A%84GOPATH%E5%B7%A5%E4%BD%9C%E8%B7%AF%E5%BE%84/</loc>
+    <lastmod>2018-02-16T11:23:26.319Z</lastmod>
+    <data>
+        <display>
+        <title>Linux／macOS设置Golang的GOPATH工作路径</title>
+        <pubTime>2017-10-04T15:08:06.000Z</pubTime>
+        
+        <tag>macOS</tag>
+         
+        <tag>Linux</tag>
+         
+        <tag>Go</tag>
+         
+         
+           
+             
+              <breadCrumb title="Go" url="http://www.xiaoqiangli.com/categories/Go/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/08/18/Js%E6%95%B0%E7%BB%84%E6%8E%92%E5%BA%8F/</loc>
+    <lastmod>2018-02-16T11:23:26.316Z</lastmod>
+    <data>
+        <display>
+        <title>Js数组排序</title>
+        <pubTime>2017-08-18T06:19:14.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+        <tag>排序</tag>
+         
+        <tag>算法</tag>
+         
+         
+           
+             
+              <breadCrumb title="JavaScript" url="http://www.xiaoqiangli.com/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/11/14/Installing-Apache-Maven/</loc>
+    <lastmod>2018-02-16T11:23:26.315Z</lastmod>
+    <data>
+        <display>
+        <title>Installing Apache Maven</title>
+        <pubTime>2017-11-14T07:26:18.000Z</pubTime>
+        
+        <tag>Java</tag>
+         
+        <tag>Maven</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="http://www.xiaoqiangli.com/categories/Java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/10/22/IP%E6%9F%A5%E8%AF%A2API/</loc>
+    <lastmod>2018-02-16T11:23:26.314Z</lastmod>
+    <data>
+        <display>
+        <title>IP查询API</title>
+        <pubTime>2017-10-22T02:50:36.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+        <tag>IP</tag>
+         
+        <tag>API</tag>
+         
+         
+           
+             
+              <breadCrumb title="JavaScript" url="http://www.xiaoqiangli.com/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/02/12/Html-pageshow-event/</loc>
+    <lastmod>2018-02-16T11:23:26.314Z</lastmod>
+    <data>
+        <display>
+        <title>Html pageshow event</title>
+        <pubTime>2018-02-12T05:14:24.000Z</pubTime>
+        
+        <tag>Html</tag>
+         
+         
+           
+             
+              <breadCrumb title="Html" url="http://www.xiaoqiangli.com/categories/Html/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/02/03/HTML%E6%B7%BB%E5%8A%A0meta%E6%A0%87%E7%AD%BE%E7%A6%81%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BC%93%E5%AD%98/</loc>
+    <lastmod>2018-02-16T11:23:26.313Z</lastmod>
+    <data>
+        <display>
+        <title>HTML添加meta标签禁用浏览器缓存</title>
+        <pubTime>2018-02-03T08:15:56.000Z</pubTime>
+        
+        <tag>Html</tag>
+         
+         
+           
+             
+              <breadCrumb title="Html" url="http://www.xiaoqiangli.com/categories/Html/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/02/16/Go%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91/</loc>
+    <lastmod>2018-02-16T11:23:26.312Z</lastmod>
+    <data>
+        <display>
+        <title>Go交叉编译</title>
+        <pubTime>2018-02-16T11:23:26.312Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Go" url="http://www.xiaoqiangli.com/categories/Go/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/09/18/HTML5-localStorage%E5%92%8CsessionStorage%E7%9A%84%E5%8C%BA%E5%88%AB%E5%92%8C%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2018-02-16T11:23:26.312Z</lastmod>
+    <data>
+        <display>
+        <title>HTML5 localStorage和sessionStorage的区别和使用</title>
+        <pubTime>2017-09-18T05:35:56.000Z</pubTime>
+        
+        <tag>Html</tag>
+         
+        <tag>localStorage</tag>
+         
+        <tag>sessionStorage</tag>
+         
+         
+           
+             
+              <breadCrumb title="Html" url="http://www.xiaoqiangli.com/categories/Html/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2018/01/27/Embed-tags-in-JavaScript-comment-blocks/</loc>
+    <lastmod>2018-02-16T11:23:26.311Z</lastmod>
+    <data>
+        <display>
+        <title>Embed tags in JavaScript comment blocks</title>
+        <pubTime>2018-01-27T04:11:50.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="JavaScript" url="http://www.xiaoqiangli.com/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+</urlset>
