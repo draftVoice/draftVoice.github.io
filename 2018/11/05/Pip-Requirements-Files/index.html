@@ -74,7 +74,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Docker," />
+  <meta name="keywords" content="Python,pip," />
 
 
 
@@ -90,18 +90,18 @@
 
 
 
-<meta name="description" content="Data 路径~/Library/Containers/com.docker.docker/Data">
-<meta name="keywords" content="Docker">
+<meta name="description" content="Generate python package list 1pip freeze &amp;gt;requirements.txt">
+<meta name="keywords" content="Python,pip">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Docker data 路径 &#x2F; 清理 Docker 容器">
-<meta property="og:url" content="http://www.xiaoqiangli.com/2018/10/07/Docker-data-路径-清理-Docker-容器/index.html">
+<meta property="og:title" content="Pip Requirements Files">
+<meta property="og:url" content="http://www.xiaoqiangli.com/2018/11/05/Pip-Requirements-Files/index.html">
 <meta property="og:site_name" content="XiaoQiang Li&#39;s Notes">
-<meta property="og:description" content="Data 路径~/Library/Containers/com.docker.docker/Data">
+<meta property="og:description" content="Generate python package list 1pip freeze &amp;gt;requirements.txt">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-10-17T12:43:38.573Z">
+<meta property="og:updated_time" content="2018-11-05T07:09:30.692Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Docker data 路径 &#x2F; 清理 Docker 容器">
-<meta name="twitter:description" content="Data 路径~/Library/Containers/com.docker.docker/Data">
+<meta name="twitter:title" content="Pip Requirements Files">
+<meta name="twitter:description" content="Generate python package list 1pip freeze &amp;gt;requirements.txt">
 
 
 
@@ -129,13 +129,13 @@
 
 
 
-  <link rel="canonical" href="http://www.xiaoqiangli.com/2018/10/07/Docker-data-路径-清理-Docker-容器/"/>
+  <link rel="canonical" href="http://www.xiaoqiangli.com/2018/11/05/Pip-Requirements-Files/"/>
 
 
 
 
 
-  <title>Docker data 路径 / 清理 Docker 容器 | XiaoQiang Li's Notes</title>
+  <title>Pip Requirements Files | XiaoQiang Li's Notes</title>
   
 
 
@@ -264,7 +264,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://www.xiaoqiangli.com/2018/10/07/Docker-data-路径-清理-Docker-容器/">
+    <link itemprop="mainEntityOfPage" href="http://www.xiaoqiangli.com/2018/11/05/Pip-Requirements-Files/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="李晓强">
@@ -281,7 +281,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Docker data 路径 / 清理 Docker 容器</h1>
+          <h1 class="post-title" itemprop="name headline">Pip Requirements Files</h1>
         
 
         <div class="post-meta">
@@ -293,8 +293,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-10-07T01:52:20+08:00">
-                2018-10-07
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-05T15:08:50+08:00">
+                2018-11-05
               </time>
             
 
@@ -316,8 +316,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Docker/" itemprop="url" rel="index">
-                    <span itemprop="name">Docker</span>
+                  <a href="/categories/Python/" itemprop="url" rel="index">
+                    <span itemprop="name">Python</span>
                   </a>
                 </span>
 
@@ -350,9 +350,13 @@
       
 
       
-        <h4 id="Data-路径"><a href="#Data-路径" class="headerlink" title="Data 路径"></a>Data 路径</h4><p>~/Library/Containers/com.docker.docker/Data</p>
+        <p>Generate python package list</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pip freeze &gt;requirements.txt</div></pre></td></tr></table></figure>
 <a id="more"></a>
-<h4 id="清理当前未运行的所有-Docker-容器："><a href="#清理当前未运行的所有-Docker-容器：" class="headerlink" title="清理当前未运行的所有 Docker 容器："></a>清理当前未运行的所有 Docker 容器：</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker system prune</div></pre></td></tr></table></figure>
+<p>The generated file looks like this below</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">asn1crypto==0.24.0</div><div class="line">certifi==2018.8.24</div><div class="line">cffi==1.11.5</div><div class="line">chardet==3.0.4</div><div class="line">conda==4.5.11</div><div class="line">cryptography==2.3.1</div></pre></td></tr></table></figure>
+<p>Install package by requirements.txt</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pip install -r requirements.txt</div></pre></td></tr></table></figure>
       
     </div>
 
@@ -381,7 +385,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Docker/" rel="tag"># Docker</a>
+            <a href="/tags/Python/" rel="tag"># Python</a>
+          
+            <a href="/tags/pip/" rel="tag"># pip</a>
           
         </div>
       
@@ -394,8 +400,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/09/16/Mac-键盘与符号对应关系/" rel="next" title="Mac 键盘与符号对应关系">
-                <i class="fa fa-chevron-left"></i> Mac 键盘与符号对应关系
+              <a href="/2018/11/02/Primary-Commands-for-tmux/" rel="next" title="Primary Commands for tmux">
+                <i class="fa fa-chevron-left"></i> Primary Commands for tmux
               </a>
             
           </div>
@@ -403,10 +409,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/10/08/vim-删除第-n-行到第-m-行/" rel="prev" title="vim 删除第 n 行到第 m 行">
-                vim 删除第 n 行到第 m 行 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -454,17 +456,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Table of Contents
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            Overview
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel">
+      <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -546,22 +539,6 @@
 
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Data-路径"><span class="nav-number">1.</span> <span class="nav-text">Data 路径</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#清理当前未运行的所有-Docker-容器："><span class="nav-number">2.</span> <span class="nav-text">清理当前未运行的所有 Docker 容器：</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
