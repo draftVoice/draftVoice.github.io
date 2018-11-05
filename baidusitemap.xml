@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://www.xiaoqiangli.com/2018/11/05/Pip-Requirements-Files/</loc>
-    <lastmod>2018-11-05T07:09:30.692Z</lastmod>
+    <lastmod>2018-11-05T07:12:07.412Z</lastmod>
     <data>
         <display>
         <title>Pip Requirements Files</title>
@@ -909,6 +909,26 @@
 
     
   <url>
+    <loc>http://www.xiaoqiangli.com/2017/08/09/%E5%8A%A8%E6%80%81%E5%8A%A0%E8%BD%BDJS/</loc>
+    <lastmod>2018-02-16T11:23:26.327Z</lastmod>
+    <data>
+        <display>
+        <title>动态加载JS</title>
+        <pubTime>2017-08-09T10:43:36.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="JavaScript" url="http://www.xiaoqiangli.com/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.xiaoqiangli.com/2017/08/08/%E4%BD%BF%E7%94%A8Node-js%E5%AE%9E%E7%8E%B0%E5%BE%AE%E4%BF%A1%E6%8E%A5%E5%85%A5%E9%AA%8C%E8%AF%81/</loc>
     <lastmod>2018-02-16T11:23:26.327Z</lastmod>
     <data>
@@ -924,26 +944,6 @@
            
              
               <breadCrumb title="node" url="http://www.xiaoqiangli.com/categories/node/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.xiaoqiangli.com/2017/08/09/%E5%8A%A8%E6%80%81%E5%8A%A0%E8%BD%BDJS/</loc>
-    <lastmod>2018-02-16T11:23:26.327Z</lastmod>
-    <data>
-        <display>
-        <title>动态加载JS</title>
-        <pubTime>2017-08-09T10:43:36.000Z</pubTime>
-        
-        <tag>JavaScript</tag>
-         
-         
-           
-             
-              <breadCrumb title="JavaScript" url="http://www.xiaoqiangli.com/categories/JavaScript/"/>
           
         </display>
     </data>
@@ -1107,6 +1107,24 @@
 
     
   <url>
+    <loc>http://www.xiaoqiangli.com/2018/02/16/Go%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91/</loc>
+    <lastmod>2018-02-16T11:23:26.312Z</lastmod>
+    <data>
+        <display>
+        <title>Go交叉编译</title>
+        <pubTime>2018-02-16T11:23:26.312Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Go" url="http://www.xiaoqiangli.com/categories/Go/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.xiaoqiangli.com/2017/09/18/HTML5-localStorage%E5%92%8CsessionStorage%E7%9A%84%E5%8C%BA%E5%88%AB%E5%92%8C%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2018-02-16T11:23:26.312Z</lastmod>
     <data>
@@ -1124,24 +1142,6 @@
            
              
               <breadCrumb title="Html" url="http://www.xiaoqiangli.com/categories/Html/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.xiaoqiangli.com/2018/02/16/Go%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91/</loc>
-    <lastmod>2018-02-16T11:23:26.312Z</lastmod>
-    <data>
-        <display>
-        <title>Go交叉编译</title>
-        <pubTime>2018-02-16T11:23:26.312Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Go" url="http://www.xiaoqiangli.com/categories/Go/"/>
           
         </display>
     </data>
