@@ -14,7 +14,7 @@ pip freeze >requirements.txt
 
 <!-- more -->
 
-The generated file looks like this below
+The generated file looks like below
 
 ```bash
 asn1crypto==0.24.0
