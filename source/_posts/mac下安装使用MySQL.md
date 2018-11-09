@@ -5,7 +5,7 @@ tags:
   - macOS
   - MySQL
   - Unix/Unix-like
-categories: macOS
+categories: MySQL
 ---
 
 ## 下载:
