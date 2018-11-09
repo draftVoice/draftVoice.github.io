@@ -352,7 +352,7 @@
       
         <h2 id="获取访问客户端IP地址"><a href="#获取访问客户端IP地址" class="headerlink" title="获取访问客户端IP地址"></a>获取访问客户端IP地址</h2><h3 id="搜狐-API（JS-callback）"><a href="#搜狐-API（JS-callback）" class="headerlink" title="搜狐 API（JS callback）"></a>搜狐 API（JS callback）</h3><p>API: <a href="http://pv.sohu.com/cityjson?ie=utf-8" target="_blank" rel="external">http://pv.sohu.com/cityjson?ie=utf-8</a></p>
 <p>e.g.</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&lt;script src=<span class="string">"http://pv.sohu.com/cityjson?ie=utf-8"</span>&gt;&lt;/script&gt;</div><div class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</div><div class="line">    <span class="built_in">console</span>.log(returnCitySN)</div><div class="line">&lt;<span class="regexp">/script&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&lt;script src=<span class="string">"http://pv.sohu.com/cityjson?ie=utf-8"</span>&gt;<span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div><div class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</div><div class="line">    <span class="built_in">console</span>.log(returnCitySN)</div><div class="line">&lt;<span class="regexp">/script&gt;</span></div></pre></td></tr></table></figure>
 <hr>
 <a id="more"></a>
 <h2 id="根据IP地址获取具体的省份、isp等信息"><a href="#根据IP地址获取具体的省份、isp等信息" class="headerlink" title="根据IP地址获取具体的省份、isp等信息"></a>根据IP地址获取具体的省份、isp等信息</h2><h3 id="新浪IP库"><a href="#新浪IP库" class="headerlink" title="新浪IP库"></a>新浪IP库</h3><h4 id="方式一-Ajax"><a href="#方式一-Ajax" class="headerlink" title="方式一: Ajax"></a>方式一: Ajax</h4><p>API: <a href="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json" target="_blank" rel="external">http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json</a></p>
@@ -360,7 +360,7 @@
 <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">ajax(&#123;</div><div class="line">    url: <span class="string">"http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json"</span>,</div><div class="line">    type: <span class="string">'get'</span>,</div><div class="line">    success: <span class="function"><span class="keyword">function</span> (<span class="params">res</span>) </span>&#123;&#125;</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
 <h4 id="方式二-JS-callback"><a href="#方式二-JS-callback" class="headerlink" title="方式二: JS callback"></a>方式二: JS callback</h4><p>API: <a href="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js&amp;ip=[IP地址" target="_blank" rel="external">http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js&amp;ip=[IP地址</a>]</p>
 <p>e.g.</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">&lt;script src=<span class="string">"http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js&amp;ip=[IP地址]"</span>&gt;&lt;/script&gt;</div><div class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</div><div class="line">    <span class="built_in">console</span>.log(remote_ip_info)</div><div class="line">&lt;<span class="regexp">/script&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">&lt;script src=<span class="string">"http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js&amp;ip=[IP地址]"</span>&gt;<span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div><div class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</div><div class="line">    <span class="built_in">console</span>.log(remote_ip_info)</div><div class="line">&lt;<span class="regexp">/script&gt;</span></div></pre></td></tr></table></figure>
 <hr>
 <h3 id="腾讯IP库（获取JSON）"><a href="#腾讯IP库（获取JSON）" class="headerlink" title="腾讯IP库（获取JSON）"></a>腾讯IP库（获取JSON）</h3><p>网址：<a href="http://lbs.qq.com/webservice_v1/index.html" target="_blank" rel="external">http://lbs.qq.com/webservice_v1/index.html</a></p>
 <p>API: <a href="http://apis.map.qq.com/ws/location/v1/ip" target="_blank" rel="external">http://apis.map.qq.com/ws/location/v1/ip</a></p>
@@ -499,7 +499,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">53</span>
+                <span class="site-state-item-count">54</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -510,7 +510,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">21</span>
+                <span class="site-state-item-count">22</span>
                 <span class="site-state-item-name">categories</span>
               </a>
             </div>
