@@ -2,7 +2,6 @@
 title: Setting the MySQL root user password
 date: 2018-11-13 17:31:03
 tags:
-tags:
   - MySQL
   - macOS
   - Linux
