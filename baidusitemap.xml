@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://www.xiaoqiangli.com/2018/11/13/start-stop-restart-MySQL-on-Ubuntu-16-04/</loc>
+    <lastmod>2018-11-13T09:27:19.886Z</lastmod>
+    <data>
+        <display>
+        <title>start / stop / restart MySQL on Ubuntu 16.04</title>
+        <pubTime>2018-11-13T09:23:05.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>MySQL</tag>
+         
+         
+           
+             
+              <breadCrumb title="MySQL" url="http://www.xiaoqiangli.com/categories/MySQL/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.xiaoqiangli.com/2018/11/09/MAC-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8%E5%92%8C%E5%81%9C%E6%AD%A2MySql/</loc>
     <lastmod>2018-11-09T06:10:25.523Z</lastmod>
     <data>
@@ -825,11 +847,11 @@
         <title>macOS推流直播服务器</title>
         <pubTime>2017-12-13T15:29:58.000Z</pubTime>
         
+        <tag>FFmpeg</tag>
+         
         <tag>macOS</tag>
          
         <tag>Unix/Unix-like</tag>
-         
-        <tag>FFmpeg</tag>
          
         <tag>nginx</tag>
          

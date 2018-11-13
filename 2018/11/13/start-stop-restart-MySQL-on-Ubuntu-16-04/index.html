@@ -74,7 +74,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="XiaoqiangLi's blog" />
+  <meta name="keywords" content="Linux,MySQL," />
 
 
 
@@ -90,16 +90,18 @@
 
 
 
-<meta name="description" content="Software Developer">
-<meta property="og:type" content="website">
-<meta property="og:title" content="XiaoQiang Li&#39;s Notes">
-<meta property="og:url" content="http://www.xiaoqiangli.com/archives/2018/09/index.html">
+<meta name="description" content="12345678# startsudo service mysql start# stopsudo service mysql stop# restartsudo service mysql restart">
+<meta name="keywords" content="Linux,MySQL">
+<meta property="og:type" content="article">
+<meta property="og:title" content="start &#x2F; stop &#x2F; restart MySQL on Ubuntu 16.04">
+<meta property="og:url" content="http://www.xiaoqiangli.com/2018/11/13/start-stop-restart-MySQL-on-Ubuntu-16-04/index.html">
 <meta property="og:site_name" content="XiaoQiang Li&#39;s Notes">
-<meta property="og:description" content="Software Developer">
+<meta property="og:description" content="12345678# startsudo service mysql start# stopsudo service mysql stop# restartsudo service mysql restart">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-11-13T09:27:19.886Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="XiaoQiang Li&#39;s Notes">
-<meta name="twitter:description" content="Software Developer">
+<meta name="twitter:title" content="start &#x2F; stop &#x2F; restart MySQL on Ubuntu 16.04">
+<meta name="twitter:description" content="12345678# startsudo service mysql start# stopsudo service mysql stop# restartsudo service mysql restart">
 
 
 
@@ -127,13 +129,13 @@
 
 
 
-  <link rel="canonical" href="http://www.xiaoqiangli.com/archives/2018/09/"/>
+  <link rel="canonical" href="http://www.xiaoqiangli.com/2018/11/13/start-stop-restart-MySQL-on-Ubuntu-16-04/"/>
 
 
 
 
 
-  <title>Archive | XiaoQiang Li's Notes</title>
+  <title>start / stop / restart MySQL on Ubuntu 16.04 | XiaoQiang Li's Notes</title>
   
 
 
@@ -158,7 +160,7 @@
     
   
 
-  <div class="container sidebar-position-left  page-archive  ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -252,65 +254,171 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-    <span class="archive-page-counter">
-      
-      
-       
-        
-      Nice! 55 posts in total. Keep on posting.
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://www.xiaoqiangli.com/2018/11/13/start-stop-restart-MySQL-on-Ubuntu-16-04/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="李晓强">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="XiaoQiang Li's Notes">
     </span>
 
     
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">start / stop / restart MySQL on Ubuntu 16.04</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-13T17:23:05+08:00">
+                2018-11-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/MySQL/" itemprop="url" rel="index">
+                    <span itemprop="name">MySQL</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
 
       
       
-      
 
+      
+        <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># start</span></div><div class="line">sudo service mysql start</div><div class="line"></div><div class="line"><span class="comment"># stop</span></div><div class="line">sudo service mysql stop</div><div class="line"></div><div class="line"><span class="comment"># restart</span></div><div class="line">sudo service mysql restart</div></pre></td></tr></table></figure>
+      
+    </div>
+
+    <div>
       
         
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2018">2018</h2>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Linux/" rel="tag"># Linux</a>
+          
+            <a href="/tags/MySQL/" rel="tag"># MySQL</a>
+          
         </div>
       
+
+      
+      
       
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/11/09/MAC-命令行启动和停止MySql/" rel="next" title="MAC 命令行启动和停止MySql">
+                <i class="fa fa-chevron-left"></i> MAC 命令行启动和停止MySql
+              </a>
+            
+          </div>
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+          <span class="post-nav-divider"></span>
 
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/09/16/Mac-键盘与符号对应关系/" itemprop="url">
-              
-                <span itemprop="name">Mac 键盘与符号对应关系</span>
-              
-            </a>
-        
-      </h2>
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-09-16T00:31:47+08:00"
-              content="2018-09-16" >
-          09-16
-        </time>
-      </div>
-
-    </header>
+      
+      
+    </footer>
   </article>
 
 
 
-    
-
-  </section>
-
-  
-
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -318,6 +426,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -534,7 +646,9 @@
   
 
   
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
 
 
   

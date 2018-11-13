@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.xiaoqiangli.com/2018/11/13/start-stop-restart-MySQL-on-Ubuntu-16-04/</loc>
+    
+    <lastmod>2018-11-13T09:27:19.886Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.xiaoqiangli.com/2018/11/09/MAC-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8%E5%92%8C%E5%81%9C%E6%AD%A2MySql/</loc>
     
     <lastmod>2018-11-09T06:10:25.523Z</lastmod>
@@ -289,14 +296,14 @@
   </url>
   
   <url>
-    <loc>http://www.xiaoqiangli.com/categories/index.html</loc>
+    <loc>http://www.xiaoqiangli.com/tags/index.html</loc>
     
     <lastmod>2018-02-16T11:23:26.330Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.xiaoqiangli.com/tags/index.html</loc>
+    <loc>http://www.xiaoqiangli.com/categories/index.html</loc>
     
     <lastmod>2018-02-16T11:23:26.330Z</lastmod>
     
