@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://www.xiaoqiangli.com/2018/11/22/%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%9F%A5%E7%9C%8B%E5%85%AC%E7%BD%91IP%E5%9C%B0%E5%9D%80/</loc>
+    <lastmod>2018-11-22T09:49:31.858Z</lastmod>
+    <data>
+        <display>
+        <title>命令行查看公网IP地址</title>
+        <pubTime>2018-11-22T09:45:19.000Z</pubTime>
+        
+        <tag>Unix/Unix-like</tag>
+         
+        <tag>terminal</tag>
+         
+         
+           
+             
+              <breadCrumb title="terminal" url="http://www.xiaoqiangli.com/categories/terminal/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.xiaoqiangli.com/2018/11/13/Setting-the-MySQL-root-user-password/</loc>
     <lastmod>2018-11-13T09:58:50.221Z</lastmod>
     <data>
@@ -535,9 +557,9 @@
         <title>macOS 下动态切换JDK版本</title>
         <pubTime>2018-06-20T16:57:22.000Z</pubTime>
         
-        <tag>macOS</tag>
-         
         <tag>Java</tag>
+         
+        <tag>macOS</tag>
          
          
            
@@ -683,9 +705,9 @@
         
         <tag>macOS</tag>
          
-        <tag>NTFS</tag>
-         
         <tag>Unix/Unix-like</tag>
+         
+        <tag>NTFS</tag>
          
          
            
@@ -793,8 +815,6 @@
         
         <tag>macOS</tag>
          
-        <tag>Unix/Unix-like</tag>
-         
         <tag>Python</tag>
          
         <tag>pip</tag>
@@ -802,6 +822,8 @@
         <tag>机器学习</tag>
          
         <tag>TensorFlow</tag>
+         
+        <tag>Unix/Unix-like</tag>
          
          
            
@@ -871,11 +893,11 @@
         <title>macOS推流直播服务器</title>
         <pubTime>2017-12-13T15:29:58.000Z</pubTime>
         
+        <tag>FFmpeg</tag>
+         
         <tag>macOS</tag>
          
         <tag>Unix/Unix-like</tag>
-         
-        <tag>FFmpeg</tag>
          
         <tag>nginx</tag>
          
@@ -899,9 +921,9 @@
         
         <tag>macOS</tag>
          
-        <tag>Unix/Unix-like</tag>
-         
         <tag>Python</tag>
+         
+        <tag>Unix/Unix-like</tag>
          
         <tag>Virtualenv</tag>
          
