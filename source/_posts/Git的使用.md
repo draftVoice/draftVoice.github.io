@@ -70,3 +70,11 @@ git checkout -b <BranchName> origin/<BranchName>
 ```bash
 git push -f origin <BranchName>
 ```
+
+## Merge unrelated histories
+
+Using --allow-unrelated-histories flag:
+
+```bash
+git pull origin branchname --allow-unrelated-histories
+```
