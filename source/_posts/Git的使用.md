@@ -71,6 +71,18 @@ git checkout -b <BranchName> origin/<BranchName>
 git push -f origin <BranchName>
 ```
 
+## Add a new remote
+
+```bash
+git remote add origin https://github.com/user/repo.git
+```
+
+## Change the url of an existing remote repository
+
+```bash
+git remote set-url origin https://github.com/user/repo.git
+```
+
 ## Merge unrelated histories
 
 Using --allow-unrelated-histories flag:
