@@ -24,6 +24,16 @@ tar zcvf ./file.tar.gz ./target
 
 <!-- more -->
 
+### lsof
+
+> 查看端口号使用情况
+
+```bash
+lsof -i:6000
+```
+
+***
+
 ### du
 
 > 查看目录或者文件所占空间
