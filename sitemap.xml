@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.xiaoqiangli.com/2018/12/18/Config-nginx-on-linux/</loc>
+    
+    <lastmod>2018-12-18T03:52:41.932Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.xiaoqiangli.com/2017/10/18/Linux-macOS%E5%B8%B8%E7%94%A8terminal%E5%91%BD%E4%BB%A4/</loc>
     
     <lastmod>2018-12-13T10:26:34.865Z</lastmod>
@@ -310,14 +317,14 @@
   </url>
   
   <url>
-    <loc>http://www.xiaoqiangli.com/tags/index.html</loc>
+    <loc>http://www.xiaoqiangli.com/categories/index.html</loc>
     
     <lastmod>2018-02-16T11:23:26.330Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.xiaoqiangli.com/categories/index.html</loc>
+    <loc>http://www.xiaoqiangli.com/tags/index.html</loc>
     
     <lastmod>2018-02-16T11:23:26.330Z</lastmod>
     
@@ -373,14 +380,14 @@
   </url>
   
   <url>
-    <loc>http://www.xiaoqiangli.com/2017/10/22/IP%E6%9F%A5%E8%AF%A2API/</loc>
+    <loc>http://www.xiaoqiangli.com/2018/02/12/Html-pageshow-event/</loc>
     
     <lastmod>2018-02-16T11:23:26.314Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.xiaoqiangli.com/2018/02/12/Html-pageshow-event/</loc>
+    <loc>http://www.xiaoqiangli.com/2017/10/22/IP%E6%9F%A5%E8%AF%A2API/</loc>
     
     <lastmod>2018-02-16T11:23:26.314Z</lastmod>
     
@@ -394,14 +401,14 @@
   </url>
   
   <url>
-    <loc>http://www.xiaoqiangli.com/2018/02/16/Go%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91/</loc>
+    <loc>http://www.xiaoqiangli.com/2017/09/18/HTML5-localStorage%E5%92%8CsessionStorage%E7%9A%84%E5%8C%BA%E5%88%AB%E5%92%8C%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2018-02-16T11:23:26.312Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.xiaoqiangli.com/2017/09/18/HTML5-localStorage%E5%92%8CsessionStorage%E7%9A%84%E5%8C%BA%E5%88%AB%E5%92%8C%E4%BD%BF%E7%94%A8/</loc>
+    <loc>http://www.xiaoqiangli.com/2018/02/16/Go%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91/</loc>
     
     <lastmod>2018-02-16T11:23:26.312Z</lastmod>
     
