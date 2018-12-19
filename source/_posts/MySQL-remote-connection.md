@@ -18,7 +18,7 @@ mysql -u root -p
 执行sql语句
 ```sql
 use mysql;
--- %为所有ip都可以远程访问
+-- % => 所有ip都可以远程访问
 update user set host = '%' where user = 'root';  
 -- 查看修改
 select host, user from user;
