@@ -13,6 +13,8 @@ categories: Raspberry Pi
 
 * tf(Micro SD) 卡一张
 
+<!-- more -->
+
 ## 开始写入：
 ```bash
 diskutil list
