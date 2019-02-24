@@ -15,6 +15,8 @@ config_hdmi_boost=4
 hdmi_drive=2
 ```
 
+<!-- more -->
+
 解释：
 
 hdmi_force_hotplug：强制使用HDMI输出。
