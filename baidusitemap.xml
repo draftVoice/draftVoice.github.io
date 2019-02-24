@@ -1021,11 +1021,11 @@
         
         <tag>nginx</tag>
          
-        <tag>FFmpeg</tag>
-         
         <tag>macOS</tag>
          
         <tag>Unix/Unix-like</tag>
+         
+        <tag>FFmpeg</tag>
          
          
            
@@ -1125,26 +1125,6 @@
 
     
   <url>
-    <loc>http://www.xiaoqiangli.com/2017/08/09/%E5%8A%A8%E6%80%81%E5%8A%A0%E8%BD%BDJS/</loc>
-    <lastmod>2018-02-16T11:23:26.327Z</lastmod>
-    <data>
-        <display>
-        <title>动态加载JS</title>
-        <pubTime>2017-08-09T10:43:36.000Z</pubTime>
-        
-        <tag>JavaScript</tag>
-         
-         
-           
-             
-              <breadCrumb title="JavaScript" url="http://www.xiaoqiangli.com/categories/JavaScript/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.xiaoqiangli.com/2017/08/08/%E4%BD%BF%E7%94%A8Node-js%E5%AE%9E%E7%8E%B0%E5%BE%AE%E4%BF%A1%E6%8E%A5%E5%85%A5%E9%AA%8C%E8%AF%81/</loc>
     <lastmod>2018-02-16T11:23:26.327Z</lastmod>
     <data>
@@ -1160,6 +1140,26 @@
            
              
               <breadCrumb title="node" url="http://www.xiaoqiangli.com/categories/node/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.xiaoqiangli.com/2017/08/09/%E5%8A%A8%E6%80%81%E5%8A%A0%E8%BD%BDJS/</loc>
+    <lastmod>2018-02-16T11:23:26.327Z</lastmod>
+    <data>
+        <display>
+        <title>动态加载JS</title>
+        <pubTime>2017-08-09T10:43:36.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="JavaScript" url="http://www.xiaoqiangli.com/categories/JavaScript/"/>
           
         </display>
     </data>
