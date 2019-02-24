@@ -4,8 +4,30 @@
 
     
   <url>
+    <loc>http://www.xiaoqiangli.com/2019/02/24/Raspberry-Pi-%E6%98%BE%E7%A4%BA%E5%99%A8%E8%AE%BE%E7%BD%AE/</loc>
+    <lastmod>2019-02-24T07:18:02.351Z</lastmod>
+    <data>
+        <display>
+        <title>Raspberry Pi 显示器设置</title>
+        <pubTime>2019-02-24T06:57:07.000Z</pubTime>
+        
+        <tag>Unix/Unix-like</tag>
+         
+        <tag>Raspberry Pi</tag>
+         
+         
+           
+             
+              <breadCrumb title="Raspberry Pi" url="http://www.xiaoqiangli.com/categories/Raspberry-Pi/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.xiaoqiangli.com/2017/10/20/Go%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91/</loc>
-    <lastmod>2019-02-20T10:29:23.980Z</lastmod>
+    <lastmod>2019-02-20T10:32:43.242Z</lastmod>
     <data>
         <display>
         <title>Go交叉编译</title>
@@ -977,11 +999,11 @@
         
         <tag>nginx</tag>
          
-        <tag>FFmpeg</tag>
-         
         <tag>macOS</tag>
          
         <tag>Unix/Unix-like</tag>
+         
+        <tag>FFmpeg</tag>
          
          
            
