@@ -20,9 +20,9 @@ diskutil list
 
 sudo diskutil unmountDisk /dev/disk[n]
 
-sudo dd bs=1m if=[path].img of=/dev/rdisk[n]
+sudo dd bs=1m if=[path].img of=/dev/disk[n]
 
-sudo diskutil eject /dev/disk2
+sudo diskutil eject /dev/disk[n]
 ```
 
 ## 开启树莓派：
